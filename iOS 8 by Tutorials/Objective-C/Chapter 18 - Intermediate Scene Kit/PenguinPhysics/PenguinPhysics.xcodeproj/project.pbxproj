@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F25971E8198365BF00A0B4A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F25971E7198365BF00A0B4A3 /* main.m */; };
+		F25971EB198365BF00A0B4A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F25971EA198365BF00A0B4A3 /* AppDelegate.m */; };
+		F25971ED198365BF00A0B4A3 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = F25971EC198365BF00A0B4A3 /* art.scnassets */; };
+		F25971F0198365BF00A0B4A3 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F25971EF198365BF00A0B4A3 /* GameViewController.m */; };
+		F25971F3198365BF00A0B4A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F25971F1198365BF00A0B4A3 /* Main.storyboard */; };
+		F25971F5198365BF00A0B4A3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F25971F4198365BF00A0B4A3 /* Images.xcassets */; };
+		F2597201198365C000A0B4A3 /* PenguinPhysicsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F2597200198365C000A0B4A3 /* PenguinPhysicsTests.m */; };
+		F2597210198366DD00A0B4A3 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = F259720A198366DD00A0B4A3 /* star.png */; };
+		F2597211198366DD00A0B4A3 /* Snow.scnp in Resources */ = {isa = PBXBuildFile; fileRef = F259720B198366DD00A0B4A3 /* Snow.scnp */; };
+		F2597212198366DD00A0B4A3 /* cube.png in Resources */ = {isa = PBXBuildFile; fileRef = F259720C198366DD00A0B4A3 /* cube.png */; };
+		F2597213198366DD00A0B4A3 /* slope.png in Resources */ = {isa = PBXBuildFile; fileRef = F259720D198366DD00A0B4A3 /* slope.png */; };
+		F2597214198366DD00A0B4A3 /* iceberg.png in Resources */ = {isa = PBXBuildFile; fileRef = F259720E198366DD00A0B4A3 /* iceberg.png */; };
+		F2597215198366DD00A0B4A3 /* SceneIceRotated.dae in Resources */ = {isa = PBXBuildFile; fileRef = F259720F198366DD00A0B4A3 /* SceneIceRotated.dae */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F25971FB198365BF00A0B4A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F25971DA198365BF00A0B4A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F25971E1198365BF00A0B4A3;
+			remoteInfo = PenguinPhysics;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F25971E2198365BF00A0B4A3 /* PenguinPhysics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PenguinPhysics.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F25971E6198365BF00A0B4A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F25971E7198365BF00A0B4A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F25971E9198365BF00A0B4A3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F25971EA198365BF00A0B4A3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F25971EC198365BF00A0B4A3 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		F25971EE198365BF00A0B4A3 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		F25971EF198365BF00A0B4A3 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		F25971F2198365BF00A0B4A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F25971F4198365BF00A0B4A3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F25971FA198365BF00A0B4A3 /* PenguinPhysicsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PenguinPhysicsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F25971FF198365C000A0B4A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2597200198365C000A0B4A3 /* PenguinPhysicsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PenguinPhysicsTests.m; sourceTree = "<group>"; };
+		F259720A198366DD00A0B4A3 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		F259720B198366DD00A0B4A3 /* Snow.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = Snow.scnp; sourceTree = "<group>"; };
+		F259720C198366DD00A0B4A3 /* cube.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cube.png; sourceTree = "<group>"; };
+		F259720D198366DD00A0B4A3 /* slope.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slope.png; sourceTree = "<group>"; };
+		F259720E198366DD00A0B4A3 /* iceberg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iceberg.png; sourceTree = "<group>"; };
+		F259720F198366DD00A0B4A3 /* SceneIceRotated.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = SceneIceRotated.dae; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F25971DF198365BF00A0B4A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F25971F7198365BF00A0B4A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F25971D9198365BF00A0B4A3 = {
+			isa = PBXGroup;
+			children = (
+				F25971E4198365BF00A0B4A3 /* PenguinPhysics */,
+				F25971FD198365BF00A0B4A3 /* PenguinPhysicsTests */,
+				F25971E3198365BF00A0B4A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F25971E3198365BF00A0B4A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F25971E2198365BF00A0B4A3 /* PenguinPhysics.app */,
+				F25971FA198365BF00A0B4A3 /* PenguinPhysicsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F25971E4198365BF00A0B4A3 /* PenguinPhysics */ = {
+			isa = PBXGroup;
+			children = (
+				F25971E9198365BF00A0B4A3 /* AppDelegate.h */,
+				F25971EA198365BF00A0B4A3 /* AppDelegate.m */,
+				F25971EC198365BF00A0B4A3 /* art.scnassets */,
+				F25971EE198365BF00A0B4A3 /* GameViewController.h */,
+				F25971EF198365BF00A0B4A3 /* GameViewController.m */,
+				F25971F1198365BF00A0B4A3 /* Main.storyboard */,
+				F25971F4198365BF00A0B4A3 /* Images.xcassets */,
+				F25971E5198365BF00A0B4A3 /* Supporting Files */,
+			);
+			path = PenguinPhysics;
+			sourceTree = "<group>";
+		};
+		F25971E5198365BF00A0B4A3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F259720A198366DD00A0B4A3 /* star.png */,
+				F259720B198366DD00A0B4A3 /* Snow.scnp */,
+				F259720C198366DD00A0B4A3 /* cube.png */,
+				F259720D198366DD00A0B4A3 /* slope.png */,
+				F259720E198366DD00A0B4A3 /* iceberg.png */,
+				F259720F198366DD00A0B4A3 /* SceneIceRotated.dae */,
+				F25971E6198365BF00A0B4A3 /* Info.plist */,
+				F25971E7198365BF00A0B4A3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F25971FD198365BF00A0B4A3 /* PenguinPhysicsTests */ = {
+			isa = PBXGroup;
+			children = (
+				F2597200198365C000A0B4A3 /* PenguinPhysicsTests.m */,
+				F25971FE198365C000A0B4A3 /* Supporting Files */,
+			);
+			path = PenguinPhysicsTests;
+			sourceTree = "<group>";
+		};
+		F25971FE198365C000A0B4A3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F25971FF198365C000A0B4A3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F25971E1198365BF00A0B4A3 /* PenguinPhysics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2597204198365C000A0B4A3 /* Build configuration list for PBXNativeTarget "PenguinPhysics" */;
+			buildPhases = (
+				F25971DE198365BF00A0B4A3 /* Sources */,
+				F25971DF198365BF00A0B4A3 /* Frameworks */,
+				F25971E0198365BF00A0B4A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PenguinPhysics;
+			productName = PenguinPhysics;
+			productReference = F25971E2198365BF00A0B4A3 /* PenguinPhysics.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F25971F9198365BF00A0B4A3 /* PenguinPhysicsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2597207198365C000A0B4A3 /* Build configuration list for PBXNativeTarget "PenguinPhysicsTests" */;
+			buildPhases = (
+				F25971F6198365BF00A0B4A3 /* Sources */,
+				F25971F7198365BF00A0B4A3 /* Frameworks */,
+				F25971F8198365BF00A0B4A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F25971FC198365BF00A0B4A3 /* PBXTargetDependency */,
+			);
+			name = PenguinPhysicsTests;
+			productName = PenguinPhysicsTests;
+			productReference = F25971FA198365BF00A0B4A3 /* PenguinPhysicsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F25971DA198365BF00A0B4A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Razeware, LLC";
+				TargetAttributes = {
+					F25971E1198365BF00A0B4A3 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					F25971F9198365BF00A0B4A3 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = F25971E1198365BF00A0B4A3;
+					};
+				};
+			};
+			buildConfigurationList = F25971DD198365BF00A0B4A3 /* Build configuration list for PBXProject "PenguinPhysics" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F25971D9198365BF00A0B4A3;
+			productRefGroup = F25971E3198365BF00A0B4A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F25971E1198365BF00A0B4A3 /* PenguinPhysics */,
+				F25971F9198365BF00A0B4A3 /* PenguinPhysicsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F25971E0198365BF00A0B4A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2597215198366DD00A0B4A3 /* SceneIceRotated.dae in Resources */,
+				F25971F5198365BF00A0B4A3 /* Images.xcassets in Resources */,
+				F2597211198366DD00A0B4A3 /* Snow.scnp in Resources */,
+				F2597212198366DD00A0B4A3 /* cube.png in Resources */,
+				F2597213198366DD00A0B4A3 /* slope.png in Resources */,
+				F2597210198366DD00A0B4A3 /* star.png in Resources */,
+				F25971ED198365BF00A0B4A3 /* art.scnassets in Resources */,
+				F25971F3198365BF00A0B4A3 /* Main.storyboard in Resources */,
+				F2597214198366DD00A0B4A3 /* iceberg.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F25971F8198365BF00A0B4A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F25971DE198365BF00A0B4A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F25971EB198365BF00A0B4A3 /* AppDelegate.m in Sources */,
+				F25971F0198365BF00A0B4A3 /* GameViewController.m in Sources */,
+				F25971E8198365BF00A0B4A3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F25971F6198365BF00A0B4A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2597201198365C000A0B4A3 /* PenguinPhysicsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F25971FC198365BF00A0B4A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F25971E1198365BF00A0B4A3 /* PenguinPhysics */;
+			targetProxy = F25971FB198365BF00A0B4A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F25971F1198365BF00A0B4A3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F25971F2198365BF00A0B4A3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F2597202198365C000A0B4A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F2597203198365C000A0B4A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2597205198365C000A0B4A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = PenguinPhysics/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F2597206198365C000A0B4A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = PenguinPhysics/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F2597208198365C000A0B4A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PenguinPhysics.app/PenguinPhysics";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PenguinPhysicsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		F2597209198365C000A0B4A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PenguinPhysics.app/PenguinPhysics";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PenguinPhysicsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F25971DD198365BF00A0B4A3 /* Build configuration list for PBXProject "PenguinPhysics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2597202198365C000A0B4A3 /* Debug */,
+				F2597203198365C000A0B4A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2597204198365C000A0B4A3 /* Build configuration list for PBXNativeTarget "PenguinPhysics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2597205198365C000A0B4A3 /* Debug */,
+				F2597206198365C000A0B4A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F2597207198365C000A0B4A3 /* Build configuration list for PBXNativeTarget "PenguinPhysicsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2597208198365C000A0B4A3 /* Debug */,
+				F2597209198365C000A0B4A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F25971DA198365BF00A0B4A3 /* Project object */;
+}

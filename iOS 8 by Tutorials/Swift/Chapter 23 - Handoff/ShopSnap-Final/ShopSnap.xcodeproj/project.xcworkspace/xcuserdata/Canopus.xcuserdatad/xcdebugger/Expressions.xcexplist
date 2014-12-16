@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "ShopSnap.SplitViewController.splitViewController (ShopSnap.SplitViewController)(Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.UISplitViewController&gt;, collapseSecondaryViewController : Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.UIViewController&gt;, ontoPrimaryViewController : Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.UIViewController&gt;) -&gt; Swift.Bool:SplitViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

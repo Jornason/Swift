@@ -1,0 +1,995 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		839C2939195A87B6009947FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 839C2938195A87B6009947FF /* main.m */; };
+		839C293C195A87B6009947FF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 839C293B195A87B6009947FF /* AppDelegate.m */; };
+		839C2942195A87B6009947FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 839C2940195A87B6009947FF /* Main.storyboard */; };
+		839C2944195A87B6009947FF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 839C2943195A87B6009947FF /* Images.xcassets */; };
+		839C2950195A87B6009947FF /* Quick_BitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 839C294F195A87B6009947FF /* Quick_BitTests.m */; };
+		839C295B195A8A21009947FF /* RWTMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 839C295A195A8A21009947FF /* RWTMainViewController.m */; };
+		839C295E195A8A2C009947FF /* RWTHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 839C295D195A8A2C009947FF /* RWTHistoryViewController.m */; };
+		839C2969195A8EF0009947FF /* RWTBitlyKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 839C2968195A8EF0009947FF /* RWTBitlyKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		839C296F195A8EF0009947FF /* RWTBitlyKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 839C2964195A8EF0009947FF /* RWTBitlyKit.framework */; };
+		839C2976195A8EF0009947FF /* RWTBitlyKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 839C2975195A8EF0009947FF /* RWTBitlyKitTests.m */; };
+		839C2979195A8EF0009947FF /* RWTBitlyKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 839C2964195A8EF0009947FF /* RWTBitlyKit.framework */; };
+		839C297A195A8EF0009947FF /* RWTBitlyKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 839C2964195A8EF0009947FF /* RWTBitlyKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		839C298E195A8F85009947FF /* RWTBitlyShortenedUrlModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 839C298C195A8F85009947FF /* RWTBitlyShortenedUrlModel.h */; };
+		839C298F195A8F85009947FF /* RWTBitlyShortenedUrlModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 839C298D195A8F85009947FF /* RWTBitlyShortenedUrlModel.m */; };
+		839C2992195A906B009947FF /* RWTBitlyService.h in Headers */ = {isa = PBXBuildFile; fileRef = 839C2990195A906B009947FF /* RWTBitlyService.h */; };
+		839C2993195A906B009947FF /* RWTBitlyService.m in Sources */ = {isa = PBXBuildFile; fileRef = 839C2991195A906B009947FF /* RWTBitlyService.m */; };
+		839EFF6E19CF84C300DAB668 /* ActionRequestHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 839EFF6D19CF84C300DAB668 /* ActionRequestHandler.m */; };
+		839EFF7019CF84C300DAB668 /* Action.js in Resources */ = {isa = PBXBuildFile; fileRef = 839EFF6F19CF84C300DAB668 /* Action.js */; };
+		839EFF7319CF84C300DAB668 /* Quicker Bit.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 839EFF6819CF84C300DAB668 /* Quicker Bit.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		839EFF7919CF84CF00DAB668 /* RWTBitlyKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 839C2964195A8EF0009947FF /* RWTBitlyKit.framework */; };
+		83E47B01195BEB1100AB9296 /* RWTBitlyHistoryService.h in Headers */ = {isa = PBXBuildFile; fileRef = 83E47AFF195BEB1100AB9296 /* RWTBitlyHistoryService.h */; };
+		83E47B02195BEB1100AB9296 /* RWTBitlyHistoryService.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E47B00195BEB1100AB9296 /* RWTBitlyHistoryService.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		839C294A195A87B6009947FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 839C292B195A87B6009947FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 839C2932195A87B6009947FF;
+			remoteInfo = "Quick Bit";
+		};
+		839C2970195A8EF0009947FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 839C292B195A87B6009947FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 839C2963195A8EF0009947FF;
+			remoteInfo = RWTBitlyKit;
+		};
+		839C2977195A8EF0009947FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 839C292B195A87B6009947FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 839C2963195A8EF0009947FF;
+			remoteInfo = RWTBitlyKit;
+		};
+		839C297B195A8EF0009947FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 839C292B195A87B6009947FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 839C2963195A8EF0009947FF;
+			remoteInfo = RWTBitlyKit;
+		};
+		839C2984195A8EF1009947FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 839C292B195A87B6009947FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 839C2963195A8EF0009947FF;
+			remoteInfo = RWTBitlyKit;
+		};
+		839C2986195A8EF1009947FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 839C292B195A87B6009947FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 839C2963195A8EF0009947FF;
+			remoteInfo = RWTBitlyKit;
+		};
+		839C2988195A8EF1009947FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 839C292B195A87B6009947FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 839C2963195A8EF0009947FF;
+			remoteInfo = RWTBitlyKit;
+		};
+		839C298A195A8EF1009947FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 839C292B195A87B6009947FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 839C2963195A8EF0009947FF;
+			remoteInfo = RWTBitlyKit;
+		};
+		839C2994195A9CB1009947FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 839C292B195A87B6009947FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 839C2963195A8EF0009947FF;
+			remoteInfo = RWTBitlyKit;
+		};
+		839EFF7119CF84C300DAB668 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 839C292B195A87B6009947FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 839EFF6719CF84C300DAB668;
+			remoteInfo = "Quicker Bit";
+		};
+		839EFF7419CF84C300DAB668 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 839C292B195A87B6009947FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 839EFF6719CF84C300DAB668;
+			remoteInfo = "Quicker Bit";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		839C2980195A8EF0009947FF /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				839C297A195A8EF0009947FF /* RWTBitlyKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83E65BC3195D2E770042BD6F /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				839EFF7319CF84C300DAB668 /* Quicker Bit.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		839C2933195A87B6009947FF /* Quick Bit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quick Bit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		839C2937195A87B6009947FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		839C2938195A87B6009947FF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		839C293A195A87B6009947FF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		839C293B195A87B6009947FF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		839C2941195A87B6009947FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		839C2943195A87B6009947FF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		839C2949195A87B6009947FF /* Quick BitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Quick BitTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		839C294E195A87B6009947FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		839C294F195A87B6009947FF /* Quick_BitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Quick_BitTests.m; sourceTree = "<group>"; };
+		839C2959195A8A21009947FF /* RWTMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWTMainViewController.h; sourceTree = "<group>"; };
+		839C295A195A8A21009947FF /* RWTMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWTMainViewController.m; sourceTree = "<group>"; };
+		839C295C195A8A2C009947FF /* RWTHistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWTHistoryViewController.h; sourceTree = "<group>"; };
+		839C295D195A8A2C009947FF /* RWTHistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWTHistoryViewController.m; sourceTree = "<group>"; };
+		839C2964195A8EF0009947FF /* RWTBitlyKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RWTBitlyKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		839C2967195A8EF0009947FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		839C2968195A8EF0009947FF /* RWTBitlyKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWTBitlyKit.h; sourceTree = "<group>"; };
+		839C296E195A8EF0009947FF /* RWTBitlyKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RWTBitlyKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		839C2974195A8EF0009947FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		839C2975195A8EF0009947FF /* RWTBitlyKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RWTBitlyKitTests.m; sourceTree = "<group>"; };
+		839C298C195A8F85009947FF /* RWTBitlyShortenedUrlModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWTBitlyShortenedUrlModel.h; sourceTree = "<group>"; };
+		839C298D195A8F85009947FF /* RWTBitlyShortenedUrlModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWTBitlyShortenedUrlModel.m; sourceTree = "<group>"; };
+		839C2990195A906B009947FF /* RWTBitlyService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWTBitlyService.h; sourceTree = "<group>"; };
+		839C2991195A906B009947FF /* RWTBitlyService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWTBitlyService.m; sourceTree = "<group>"; };
+		839EFF6819CF84C300DAB668 /* Quicker Bit.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Quicker Bit.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		839EFF6B19CF84C300DAB668 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		839EFF6C19CF84C300DAB668 /* ActionRequestHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActionRequestHandler.h; sourceTree = "<group>"; };
+		839EFF6D19CF84C300DAB668 /* ActionRequestHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActionRequestHandler.m; sourceTree = "<group>"; };
+		839EFF6F19CF84C300DAB668 /* Action.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Action.js; sourceTree = "<group>"; };
+		839EFF7A19CF84D400DAB668 /* Quicker Bit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Quicker Bit.entitlements"; sourceTree = "<group>"; };
+		83E47AFF195BEB1100AB9296 /* RWTBitlyHistoryService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWTBitlyHistoryService.h; sourceTree = "<group>"; };
+		83E47B00195BEB1100AB9296 /* RWTBitlyHistoryService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWTBitlyHistoryService.m; sourceTree = "<group>"; };
+		83E65BAD195D2D9E0042BD6F /* Quick Bit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Quick Bit.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		839C2930195A87B6009947FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				839C2979195A8EF0009947FF /* RWTBitlyKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		839C2946195A87B6009947FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		839C2960195A8EF0009947FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		839C296B195A8EF0009947FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				839C296F195A8EF0009947FF /* RWTBitlyKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		839EFF6519CF84C300DAB668 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				839EFF7919CF84CF00DAB668 /* RWTBitlyKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		839C292A195A87B6009947FF = {
+			isa = PBXGroup;
+			children = (
+				839C2935195A87B6009947FF /* Quick Bit */,
+				839C294C195A87B6009947FF /* Quick BitTests */,
+				839C2965195A8EF0009947FF /* RWTBitlyKit */,
+				839C2972195A8EF0009947FF /* RWTBitlyKitTests */,
+				839EFF6919CF84C300DAB668 /* Quicker Bit */,
+				839C2934195A87B6009947FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		839C2934195A87B6009947FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				839C2933195A87B6009947FF /* Quick Bit.app */,
+				839C2949195A87B6009947FF /* Quick BitTests.xctest */,
+				839C2964195A8EF0009947FF /* RWTBitlyKit.framework */,
+				839C296E195A8EF0009947FF /* RWTBitlyKitTests.xctest */,
+				839EFF6819CF84C300DAB668 /* Quicker Bit.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		839C2935195A87B6009947FF /* Quick Bit */ = {
+			isa = PBXGroup;
+			children = (
+				83E65BAD195D2D9E0042BD6F /* Quick Bit.entitlements */,
+				839C293A195A87B6009947FF /* AppDelegate.h */,
+				839C293B195A87B6009947FF /* AppDelegate.m */,
+				839C2940195A87B6009947FF /* Main.storyboard */,
+				839C2943195A87B6009947FF /* Images.xcassets */,
+				839C2936195A87B6009947FF /* Supporting Files */,
+				839C2959195A8A21009947FF /* RWTMainViewController.h */,
+				839C295A195A8A21009947FF /* RWTMainViewController.m */,
+				839C295C195A8A2C009947FF /* RWTHistoryViewController.h */,
+				839C295D195A8A2C009947FF /* RWTHistoryViewController.m */,
+			);
+			path = "Quick Bit";
+			sourceTree = "<group>";
+		};
+		839C2936195A87B6009947FF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				839C2937195A87B6009947FF /* Info.plist */,
+				839C2938195A87B6009947FF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		839C294C195A87B6009947FF /* Quick BitTests */ = {
+			isa = PBXGroup;
+			children = (
+				839C294F195A87B6009947FF /* Quick_BitTests.m */,
+				839C294D195A87B6009947FF /* Supporting Files */,
+			);
+			path = "Quick BitTests";
+			sourceTree = "<group>";
+		};
+		839C294D195A87B6009947FF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				839C294E195A87B6009947FF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		839C2965195A8EF0009947FF /* RWTBitlyKit */ = {
+			isa = PBXGroup;
+			children = (
+				839C2968195A8EF0009947FF /* RWTBitlyKit.h */,
+				839C2966195A8EF0009947FF /* Supporting Files */,
+				839C298C195A8F85009947FF /* RWTBitlyShortenedUrlModel.h */,
+				839C298D195A8F85009947FF /* RWTBitlyShortenedUrlModel.m */,
+				839C2990195A906B009947FF /* RWTBitlyService.h */,
+				839C2991195A906B009947FF /* RWTBitlyService.m */,
+				83E47AFF195BEB1100AB9296 /* RWTBitlyHistoryService.h */,
+				83E47B00195BEB1100AB9296 /* RWTBitlyHistoryService.m */,
+			);
+			path = RWTBitlyKit;
+			sourceTree = "<group>";
+		};
+		839C2966195A8EF0009947FF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				839C2967195A8EF0009947FF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		839C2972195A8EF0009947FF /* RWTBitlyKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				839C2975195A8EF0009947FF /* RWTBitlyKitTests.m */,
+				839C2973195A8EF0009947FF /* Supporting Files */,
+			);
+			path = RWTBitlyKitTests;
+			sourceTree = "<group>";
+		};
+		839C2973195A8EF0009947FF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				839C2974195A8EF0009947FF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		839EFF6919CF84C300DAB668 /* Quicker Bit */ = {
+			isa = PBXGroup;
+			children = (
+				839EFF7A19CF84D400DAB668 /* Quicker Bit.entitlements */,
+				839EFF6C19CF84C300DAB668 /* ActionRequestHandler.h */,
+				839EFF6D19CF84C300DAB668 /* ActionRequestHandler.m */,
+				839EFF6F19CF84C300DAB668 /* Action.js */,
+				839EFF6A19CF84C300DAB668 /* Supporting Files */,
+			);
+			path = "Quicker Bit";
+			sourceTree = "<group>";
+		};
+		839EFF6A19CF84C300DAB668 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				839EFF6B19CF84C300DAB668 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		839C2961195A8EF0009947FF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				839C298E195A8F85009947FF /* RWTBitlyShortenedUrlModel.h in Headers */,
+				839C2969195A8EF0009947FF /* RWTBitlyKit.h in Headers */,
+				83E47B01195BEB1100AB9296 /* RWTBitlyHistoryService.h in Headers */,
+				839C2992195A906B009947FF /* RWTBitlyService.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		839C2932195A87B6009947FF /* Quick Bit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 839C2953195A87B6009947FF /* Build configuration list for PBXNativeTarget "Quick Bit" */;
+			buildPhases = (
+				839C292F195A87B6009947FF /* Sources */,
+				839C2930195A87B6009947FF /* Frameworks */,
+				839C2931195A87B6009947FF /* Resources */,
+				839C2980195A8EF0009947FF /* Embed Frameworks */,
+				83E65BC3195D2E770042BD6F /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				839C2978195A8EF0009947FF /* PBXTargetDependency */,
+				839C297C195A8EF0009947FF /* PBXTargetDependency */,
+				839EFF7219CF84C300DAB668 /* PBXTargetDependency */,
+				839EFF7519CF84C300DAB668 /* PBXTargetDependency */,
+			);
+			name = "Quick Bit";
+			productName = "Quick Bit";
+			productReference = 839C2933195A87B6009947FF /* Quick Bit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		839C2948195A87B6009947FF /* Quick BitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 839C2956195A87B6009947FF /* Build configuration list for PBXNativeTarget "Quick BitTests" */;
+			buildPhases = (
+				839C2945195A87B6009947FF /* Sources */,
+				839C2946195A87B6009947FF /* Frameworks */,
+				839C2947195A87B6009947FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				839C294B195A87B6009947FF /* PBXTargetDependency */,
+			);
+			name = "Quick BitTests";
+			productName = "Quick BitTests";
+			productReference = 839C2949195A87B6009947FF /* Quick BitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		839C2963195A8EF0009947FF /* RWTBitlyKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 839C297D195A8EF0009947FF /* Build configuration list for PBXNativeTarget "RWTBitlyKit" */;
+			buildPhases = (
+				839C295F195A8EF0009947FF /* Sources */,
+				839C2960195A8EF0009947FF /* Frameworks */,
+				839C2961195A8EF0009947FF /* Headers */,
+				839C2962195A8EF0009947FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RWTBitlyKit;
+			productName = RWTBitlyKit;
+			productReference = 839C2964195A8EF0009947FF /* RWTBitlyKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		839C296D195A8EF0009947FF /* RWTBitlyKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 839C2981195A8EF0009947FF /* Build configuration list for PBXNativeTarget "RWTBitlyKitTests" */;
+			buildPhases = (
+				839C296A195A8EF0009947FF /* Sources */,
+				839C296B195A8EF0009947FF /* Frameworks */,
+				839C296C195A8EF0009947FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				839C2971195A8EF0009947FF /* PBXTargetDependency */,
+				839C2985195A8EF1009947FF /* PBXTargetDependency */,
+				839C2987195A8EF1009947FF /* PBXTargetDependency */,
+				839C2989195A8EF1009947FF /* PBXTargetDependency */,
+				839C298B195A8EF1009947FF /* PBXTargetDependency */,
+				839C2995195A9CB1009947FF /* PBXTargetDependency */,
+			);
+			name = RWTBitlyKitTests;
+			productName = RWTBitlyKitTests;
+			productReference = 839C296E195A8EF0009947FF /* RWTBitlyKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		839EFF6719CF84C300DAB668 /* Quicker Bit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 839EFF7619CF84C300DAB668 /* Build configuration list for PBXNativeTarget "Quicker Bit" */;
+			buildPhases = (
+				839EFF6419CF84C300DAB668 /* Sources */,
+				839EFF6519CF84C300DAB668 /* Frameworks */,
+				839EFF6619CF84C300DAB668 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Quicker Bit";
+			productName = "Quicker Bit";
+			productReference = 839EFF6819CF84C300DAB668 /* Quicker Bit.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		839C292B195A87B6009947FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Ray Wenderlich LLC";
+				TargetAttributes = {
+					839C2932195A87B6009947FF = {
+						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = X28LAA5D4H;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					839C2948195A87B6009947FF = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 839C2932195A87B6009947FF;
+					};
+					839C2963195A8EF0009947FF = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					839C296D195A8EF0009947FF = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 839C2963195A8EF0009947FF;
+					};
+					839EFF6719CF84C300DAB668 = {
+						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = X28LAA5D4H;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 839C292E195A87B6009947FF /* Build configuration list for PBXProject "Quick Bit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 839C292A195A87B6009947FF;
+			productRefGroup = 839C2934195A87B6009947FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				839C2932195A87B6009947FF /* Quick Bit */,
+				839C2948195A87B6009947FF /* Quick BitTests */,
+				839C2963195A8EF0009947FF /* RWTBitlyKit */,
+				839C296D195A8EF0009947FF /* RWTBitlyKitTests */,
+				839EFF6719CF84C300DAB668 /* Quicker Bit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		839C2931195A87B6009947FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				839C2942195A87B6009947FF /* Main.storyboard in Resources */,
+				839C2944195A87B6009947FF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		839C2947195A87B6009947FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		839C2962195A8EF0009947FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		839C296C195A8EF0009947FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		839EFF6619CF84C300DAB668 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				839EFF7019CF84C300DAB668 /* Action.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		839C292F195A87B6009947FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				839C293C195A87B6009947FF /* AppDelegate.m in Sources */,
+				839C295B195A8A21009947FF /* RWTMainViewController.m in Sources */,
+				839C2939195A87B6009947FF /* main.m in Sources */,
+				839C295E195A8A2C009947FF /* RWTHistoryViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		839C2945195A87B6009947FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				839C2950195A87B6009947FF /* Quick_BitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		839C295F195A8EF0009947FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83E47B02195BEB1100AB9296 /* RWTBitlyHistoryService.m in Sources */,
+				839C2993195A906B009947FF /* RWTBitlyService.m in Sources */,
+				839C298F195A8F85009947FF /* RWTBitlyShortenedUrlModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		839C296A195A8EF0009947FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				839C2976195A8EF0009947FF /* RWTBitlyKitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		839EFF6419CF84C300DAB668 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				839EFF6E19CF84C300DAB668 /* ActionRequestHandler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		839C294B195A87B6009947FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 839C2932195A87B6009947FF /* Quick Bit */;
+			targetProxy = 839C294A195A87B6009947FF /* PBXContainerItemProxy */;
+		};
+		839C2971195A8EF0009947FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 839C2963195A8EF0009947FF /* RWTBitlyKit */;
+			targetProxy = 839C2970195A8EF0009947FF /* PBXContainerItemProxy */;
+		};
+		839C2978195A8EF0009947FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 839C2963195A8EF0009947FF /* RWTBitlyKit */;
+			targetProxy = 839C2977195A8EF0009947FF /* PBXContainerItemProxy */;
+		};
+		839C297C195A8EF0009947FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 839C2963195A8EF0009947FF /* RWTBitlyKit */;
+			targetProxy = 839C297B195A8EF0009947FF /* PBXContainerItemProxy */;
+		};
+		839C2985195A8EF1009947FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 839C2963195A8EF0009947FF /* RWTBitlyKit */;
+			targetProxy = 839C2984195A8EF1009947FF /* PBXContainerItemProxy */;
+		};
+		839C2987195A8EF1009947FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 839C2963195A8EF0009947FF /* RWTBitlyKit */;
+			targetProxy = 839C2986195A8EF1009947FF /* PBXContainerItemProxy */;
+		};
+		839C2989195A8EF1009947FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 839C2963195A8EF0009947FF /* RWTBitlyKit */;
+			targetProxy = 839C2988195A8EF1009947FF /* PBXContainerItemProxy */;
+		};
+		839C298B195A8EF1009947FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 839C2963195A8EF0009947FF /* RWTBitlyKit */;
+			targetProxy = 839C298A195A8EF1009947FF /* PBXContainerItemProxy */;
+		};
+		839C2995195A9CB1009947FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 839C2963195A8EF0009947FF /* RWTBitlyKit */;
+			targetProxy = 839C2994195A9CB1009947FF /* PBXContainerItemProxy */;
+		};
+		839EFF7219CF84C300DAB668 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 839EFF6719CF84C300DAB668 /* Quicker Bit */;
+			targetProxy = 839EFF7119CF84C300DAB668 /* PBXContainerItemProxy */;
+		};
+		839EFF7519CF84C300DAB668 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 839EFF6719CF84C300DAB668 /* Quicker Bit */;
+			targetProxy = 839EFF7419CF84C300DAB668 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		839C2940195A87B6009947FF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				839C2941195A87B6009947FF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		839C2951195A87B6009947FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		839C2952195A87B6009947FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		839C2954195A87B6009947FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = "Quick Bit/Quick Bit.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Quick Bit/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		839C2955195A87B6009947FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = "Quick Bit/Quick Bit.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Quick Bit/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		839C2957195A87B6009947FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Quick Bit.app/Quick Bit";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Quick BitTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		839C2958195A87B6009947FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Quick Bit.app/Quick Bit";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Quick BitTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+		839C297E195A8EF0009947FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RWTBitlyKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		839C297F195A8EF0009947FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = RWTBitlyKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		839C2982195A8EF0009947FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RWTBitlyKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		839C2983195A8EF0009947FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RWTBitlyKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		839EFF7719CF84C300DAB668 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Quicker Bit/Quicker Bit.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Quicker Bit/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		839EFF7819CF84C300DAB668 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Quicker Bit/Quicker Bit.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Quicker Bit/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		839C292E195A87B6009947FF /* Build configuration list for PBXProject "Quick Bit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				839C2951195A87B6009947FF /* Debug */,
+				839C2952195A87B6009947FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		839C2953195A87B6009947FF /* Build configuration list for PBXNativeTarget "Quick Bit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				839C2954195A87B6009947FF /* Debug */,
+				839C2955195A87B6009947FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		839C2956195A87B6009947FF /* Build configuration list for PBXNativeTarget "Quick BitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				839C2957195A87B6009947FF /* Debug */,
+				839C2958195A87B6009947FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		839C297D195A8EF0009947FF /* Build configuration list for PBXNativeTarget "RWTBitlyKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				839C297E195A8EF0009947FF /* Debug */,
+				839C297F195A8EF0009947FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		839C2981195A8EF0009947FF /* Build configuration list for PBXNativeTarget "RWTBitlyKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				839C2982195A8EF0009947FF /* Debug */,
+				839C2983195A8EF0009947FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		839EFF7619CF84C300DAB668 /* Build configuration list for PBXNativeTarget "Quicker Bit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				839EFF7719CF84C300DAB668 /* Debug */,
+				839EFF7819CF84C300DAB668 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 839C292B195A87B6009947FF /* Project object */;
+}

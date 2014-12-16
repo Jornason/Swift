@@ -1,0 +1,1066 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		837B8FB319CF94E7004E505D /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83273A221957CB8F002146B5 /* NotificationCenter.framework */; };
+		837B8FB919CF94E7004E505D /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 837B8FB819CF94E7004E505D /* TodayViewController.m */; };
+		837B8FBB19CF94E7004E505D /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 837B8FBA19CF94E7004E505D /* MainInterface.storyboard */; };
+		837B8FBE19CF94E7004E505D /* BTC Widget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 837B8FB219CF94E7004E505D /* BTC Widget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		837B8FC419CF9507004E505D /* CryptoCurrencyKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8397625919515D5D00B1464A /* CryptoCurrencyKit.framework */; };
+		837B8FC519CF9E25004E505D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83A7418019515CCA00D1ED4F /* Images.xcassets */; };
+		8397625319515D1A00B1464A /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8397625219515D1A00B1464A /* MainViewController.m */; };
+		8397625E19515D5D00B1464A /* CryptoCurrencyKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 8397625D19515D5D00B1464A /* CryptoCurrencyKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8397626419515D5D00B1464A /* CryptoCurrencyKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8397625919515D5D00B1464A /* CryptoCurrencyKit.framework */; };
+		8397626B19515D5D00B1464A /* CryptoCurrencyKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8397626A19515D5D00B1464A /* CryptoCurrencyKitTests.m */; };
+		8397626E19515D5D00B1464A /* CryptoCurrencyKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8397625919515D5D00B1464A /* CryptoCurrencyKit.framework */; };
+		8397626F19515D5D00B1464A /* CryptoCurrencyKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8397625919515D5D00B1464A /* CryptoCurrencyKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		839762851951634900B1464A /* RWTBitCoinService.h in Headers */ = {isa = PBXBuildFile; fileRef = 839762831951634900B1464A /* RWTBitCoinService.h */; };
+		839762861951634900B1464A /* RWTBitCoinService.m in Sources */ = {isa = PBXBuildFile; fileRef = 839762841951634900B1464A /* RWTBitCoinService.m */; };
+		83A7417619515CCA00D1ED4F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A7417519515CCA00D1ED4F /* main.m */; };
+		83A7417919515CCA00D1ED4F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A7417819515CCA00D1ED4F /* AppDelegate.m */; };
+		83A7417F19515CCA00D1ED4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83A7417D19515CCA00D1ED4F /* Main.storyboard */; };
+		83A7418119515CCA00D1ED4F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83A7418019515CCA00D1ED4F /* Images.xcassets */; };
+		83A7418D19515CCA00D1ED4F /* CryptickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A7418C19515CCA00D1ED4F /* CryptickerTests.m */; };
+		83B2D16A19555FAC009D73F0 /* RWTBitCoinStats.h in Headers */ = {isa = PBXBuildFile; fileRef = 83B2D16819555FAC009D73F0 /* RWTBitCoinStats.h */; };
+		83B2D16B19555FAC009D73F0 /* RWTBitCoinStats.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B2D16919555FAC009D73F0 /* RWTBitCoinStats.m */; };
+		83B2D16E19556080009D73F0 /* RWTBitCoinPrice.h in Headers */ = {isa = PBXBuildFile; fileRef = 83B2D16C19556080009D73F0 /* RWTBitCoinPrice.h */; };
+		83B2D16F19556080009D73F0 /* RWTBitCoinPrice.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B2D16D19556080009D73F0 /* RWTBitCoinPrice.m */; };
+		83D6872B1957FFB0006D7675 /* RWTCurrencyDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D687291957FC37006D7675 /* RWTCurrencyDataViewController.m */; };
+		83E17A2C19574A880080FA45 /* NSDate+Utilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 83E17A2A19574A880080FA45 /* NSDate+Utilities.h */; };
+		83E17A2D19574A880080FA45 /* NSDate+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E17A2B19574A880080FA45 /* NSDate+Utilities.m */; };
+		83E95DDC195552E00030C45A /* JBBarChartView.h in Headers */ = {isa = PBXBuildFile; fileRef = 83E95DD6195552E00030C45A /* JBBarChartView.h */; };
+		83E95DDD195552E00030C45A /* JBBarChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E95DD7195552E00030C45A /* JBBarChartView.m */; };
+		83E95DDE195552E00030C45A /* JBChartView.h in Headers */ = {isa = PBXBuildFile; fileRef = 83E95DD8195552E00030C45A /* JBChartView.h */; };
+		83E95DDF195552E00030C45A /* JBChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E95DD9195552E00030C45A /* JBChartView.m */; };
+		83E95DE0195552E00030C45A /* JBLineChartView.h in Headers */ = {isa = PBXBuildFile; fileRef = 83E95DDA195552E00030C45A /* JBLineChartView.h */; };
+		83E95DE1195552E00030C45A /* JBLineChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E95DDB195552E00030C45A /* JBLineChartView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		837B8FBC19CF94E7004E505D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83A7416819515CCA00D1ED4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 837B8FB119CF94E7004E505D;
+			remoteInfo = "BTC Widget";
+		};
+		837B8FBF19CF94E7004E505D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83A7416819515CCA00D1ED4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 837B8FB119CF94E7004E505D;
+			remoteInfo = "BTC Widget";
+		};
+		8397626519515D5D00B1464A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83A7416819515CCA00D1ED4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8397625819515D5D00B1464A;
+			remoteInfo = CryptoCurrencyKit;
+		};
+		8397626C19515D5D00B1464A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83A7416819515CCA00D1ED4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8397625819515D5D00B1464A;
+			remoteInfo = CryptoCurrencyKit;
+		};
+		8397627019515D5D00B1464A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83A7416819515CCA00D1ED4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8397625819515D5D00B1464A;
+			remoteInfo = CryptoCurrencyKit;
+		};
+		8397627919515D5E00B1464A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83A7416819515CCA00D1ED4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8397625819515D5D00B1464A;
+			remoteInfo = CryptoCurrencyKit;
+		};
+		839762891951643D00B1464A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83A7416819515CCA00D1ED4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83A7416F19515CCA00D1ED4F;
+			remoteInfo = Crypticker;
+		};
+		8397628B1951651700B1464A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83A7416819515CCA00D1ED4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83A7416F19515CCA00D1ED4F;
+			remoteInfo = Crypticker;
+		};
+		8397628D1951651700B1464A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83A7416819515CCA00D1ED4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83A7416F19515CCA00D1ED4F;
+			remoteInfo = Crypticker;
+		};
+		8397628F1951651800B1464A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83A7416819515CCA00D1ED4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8397625819515D5D00B1464A;
+			remoteInfo = CryptoCurrencyKit;
+		};
+		83A7418719515CCA00D1ED4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83A7416819515CCA00D1ED4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83A7416F19515CCA00D1ED4F;
+			remoteInfo = Crypticker;
+		};
+		83E95DCE1955509D0030C45A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83A7416819515CCA00D1ED4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8397625819515D5D00B1464A;
+			remoteInfo = CryptoCurrencyKit;
+		};
+		83E95DD01955509D0030C45A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83A7416819515CCA00D1ED4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8397625819515D5D00B1464A;
+			remoteInfo = CryptoCurrencyKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		83273A341957CB8F002146B5 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				837B8FBE19CF94E7004E505D /* BTC Widget.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8397627519515D5D00B1464A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				8397626F19515D5D00B1464A /* CryptoCurrencyKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		051CCB8412B04E0BAF2660CA /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		83273A221957CB8F002146B5 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		837B8FB219CF94E7004E505D /* BTC Widget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "BTC Widget.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		837B8FB619CF94E7004E505D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		837B8FB719CF94E7004E505D /* TodayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodayViewController.h; sourceTree = "<group>"; };
+		837B8FB819CF94E7004E505D /* TodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodayViewController.m; sourceTree = "<group>"; };
+		837B8FBA19CF94E7004E505D /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
+		8397625119515D1A00B1464A /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		8397625219515D1A00B1464A /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		8397625919515D5D00B1464A /* CryptoCurrencyKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CryptoCurrencyKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8397625C19515D5D00B1464A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8397625D19515D5D00B1464A /* CryptoCurrencyKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CryptoCurrencyKit.h; sourceTree = "<group>"; };
+		8397626319515D5D00B1464A /* CryptoCurrencyKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CryptoCurrencyKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8397626919515D5D00B1464A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8397626A19515D5D00B1464A /* CryptoCurrencyKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CryptoCurrencyKitTests.m; sourceTree = "<group>"; };
+		839762831951634900B1464A /* RWTBitCoinService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWTBitCoinService.h; sourceTree = "<group>"; };
+		839762841951634900B1464A /* RWTBitCoinService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWTBitCoinService.m; sourceTree = "<group>"; };
+		83976287195163A500B1464A /* libPods.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPods.a; path = "Pods/build/Debug-iphoneos/libPods.a"; sourceTree = "<group>"; };
+		83A7417019515CCA00D1ED4F /* Crypticker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Crypticker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		83A7417419515CCA00D1ED4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83A7417519515CCA00D1ED4F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		83A7417719515CCA00D1ED4F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		83A7417819515CCA00D1ED4F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		83A7417E19515CCA00D1ED4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		83A7418019515CCA00D1ED4F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		83A7418619515CCA00D1ED4F /* CryptickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CryptickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		83A7418B19515CCA00D1ED4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83A7418C19515CCA00D1ED4F /* CryptickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CryptickerTests.m; sourceTree = "<group>"; };
+		83B2D16819555FAC009D73F0 /* RWTBitCoinStats.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWTBitCoinStats.h; sourceTree = "<group>"; };
+		83B2D16919555FAC009D73F0 /* RWTBitCoinStats.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWTBitCoinStats.m; sourceTree = "<group>"; };
+		83B2D16C19556080009D73F0 /* RWTBitCoinPrice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWTBitCoinPrice.h; sourceTree = "<group>"; };
+		83B2D16D19556080009D73F0 /* RWTBitCoinPrice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWTBitCoinPrice.m; sourceTree = "<group>"; };
+		83B2D17019556115009D73F0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		83B2D17219556126009D73F0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		83B2D17419556180009D73F0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		83D687281957FC37006D7675 /* RWTCurrencyDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RWTCurrencyDataViewController.h; path = ../Crypticker/RWTCurrencyDataViewController.h; sourceTree = "<group>"; };
+		83D687291957FC37006D7675 /* RWTCurrencyDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RWTCurrencyDataViewController.m; path = ../Crypticker/RWTCurrencyDataViewController.m; sourceTree = "<group>"; };
+		83E17A2A19574A880080FA45 /* NSDate+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Utilities.h"; sourceTree = "<group>"; };
+		83E17A2B19574A880080FA45 /* NSDate+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Utilities.m"; sourceTree = "<group>"; };
+		83E95DD6195552E00030C45A /* JBBarChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBBarChartView.h; sourceTree = "<group>"; };
+		83E95DD7195552E00030C45A /* JBBarChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBBarChartView.m; sourceTree = "<group>"; };
+		83E95DD8195552E00030C45A /* JBChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBChartView.h; sourceTree = "<group>"; };
+		83E95DD9195552E00030C45A /* JBChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBChartView.m; sourceTree = "<group>"; };
+		83E95DDA195552E00030C45A /* JBLineChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBLineChartView.h; sourceTree = "<group>"; };
+		83E95DDB195552E00030C45A /* JBLineChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBLineChartView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		837B8FAF19CF94E7004E505D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				837B8FC419CF9507004E505D /* CryptoCurrencyKit.framework in Frameworks */,
+				837B8FB319CF94E7004E505D /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8397625519515D5D00B1464A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8397626019515D5D00B1464A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8397626419515D5D00B1464A /* CryptoCurrencyKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83A7416D19515CCA00D1ED4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8397626E19515D5D00B1464A /* CryptoCurrencyKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83A7418319515CCA00D1ED4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7643E3A85A504522A13664E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83B2D17419556180009D73F0 /* CoreGraphics.framework */,
+				83B2D17219556126009D73F0 /* UIKit.framework */,
+				83B2D17019556115009D73F0 /* Foundation.framework */,
+				83976287195163A500B1464A /* libPods.a */,
+				051CCB8412B04E0BAF2660CA /* libPods.a */,
+				83273A221957CB8F002146B5 /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		837B8FB419CF94E7004E505D /* BTC Widget */ = {
+			isa = PBXGroup;
+			children = (
+				837B8FB719CF94E7004E505D /* TodayViewController.h */,
+				837B8FB819CF94E7004E505D /* TodayViewController.m */,
+				837B8FBA19CF94E7004E505D /* MainInterface.storyboard */,
+				837B8FB519CF94E7004E505D /* Supporting Files */,
+			);
+			path = "BTC Widget";
+			sourceTree = "<group>";
+		};
+		837B8FB519CF94E7004E505D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				837B8FB619CF94E7004E505D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8397625A19515D5D00B1464A /* CryptoCurrencyKit */ = {
+			isa = PBXGroup;
+			children = (
+				83D687281957FC37006D7675 /* RWTCurrencyDataViewController.h */,
+				83D687291957FC37006D7675 /* RWTCurrencyDataViewController.m */,
+				83E95DD4195552C70030C45A /* ThirdParty */,
+				839762831951634900B1464A /* RWTBitCoinService.h */,
+				83B2D16819555FAC009D73F0 /* RWTBitCoinStats.h */,
+				839762841951634900B1464A /* RWTBitCoinService.m */,
+				8397625D19515D5D00B1464A /* CryptoCurrencyKit.h */,
+				8397625B19515D5D00B1464A /* Supporting Files */,
+				83B2D16919555FAC009D73F0 /* RWTBitCoinStats.m */,
+				83B2D16C19556080009D73F0 /* RWTBitCoinPrice.h */,
+				83B2D16D19556080009D73F0 /* RWTBitCoinPrice.m */,
+			);
+			path = CryptoCurrencyKit;
+			sourceTree = "<group>";
+		};
+		8397625B19515D5D00B1464A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8397625C19515D5D00B1464A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8397626719515D5D00B1464A /* CryptoCurrencyKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				8397626A19515D5D00B1464A /* CryptoCurrencyKitTests.m */,
+				8397626819515D5D00B1464A /* Supporting Files */,
+			);
+			path = CryptoCurrencyKitTests;
+			sourceTree = "<group>";
+		};
+		8397626819515D5D00B1464A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8397626919515D5D00B1464A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		83A7416719515CCA00D1ED4F = {
+			isa = PBXGroup;
+			children = (
+				83A7417219515CCA00D1ED4F /* Crypticker */,
+				83A7418919515CCA00D1ED4F /* CryptickerTests */,
+				8397625A19515D5D00B1464A /* CryptoCurrencyKit */,
+				8397626719515D5D00B1464A /* CryptoCurrencyKitTests */,
+				837B8FB419CF94E7004E505D /* BTC Widget */,
+				83A7417119515CCA00D1ED4F /* Products */,
+				7643E3A85A504522A13664E7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		83A7417119515CCA00D1ED4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83A7417019515CCA00D1ED4F /* Crypticker.app */,
+				83A7418619515CCA00D1ED4F /* CryptickerTests.xctest */,
+				8397625919515D5D00B1464A /* CryptoCurrencyKit.framework */,
+				8397626319515D5D00B1464A /* CryptoCurrencyKitTests.xctest */,
+				837B8FB219CF94E7004E505D /* BTC Widget.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83A7417219515CCA00D1ED4F /* Crypticker */ = {
+			isa = PBXGroup;
+			children = (
+				83A7417719515CCA00D1ED4F /* AppDelegate.h */,
+				83A7417819515CCA00D1ED4F /* AppDelegate.m */,
+				83A7417D19515CCA00D1ED4F /* Main.storyboard */,
+				83A7418019515CCA00D1ED4F /* Images.xcassets */,
+				83A7417319515CCA00D1ED4F /* Supporting Files */,
+				8397625119515D1A00B1464A /* MainViewController.h */,
+				8397625219515D1A00B1464A /* MainViewController.m */,
+			);
+			path = Crypticker;
+			sourceTree = "<group>";
+		};
+		83A7417319515CCA00D1ED4F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				83A7417419515CCA00D1ED4F /* Info.plist */,
+				83A7417519515CCA00D1ED4F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		83A7418919515CCA00D1ED4F /* CryptickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				83A7418C19515CCA00D1ED4F /* CryptickerTests.m */,
+				83A7418A19515CCA00D1ED4F /* Supporting Files */,
+			);
+			path = CryptickerTests;
+			sourceTree = "<group>";
+		};
+		83A7418A19515CCA00D1ED4F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				83A7418B19515CCA00D1ED4F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		83E95DD4195552C70030C45A /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				83E17A2A19574A880080FA45 /* NSDate+Utilities.h */,
+				83E17A2B19574A880080FA45 /* NSDate+Utilities.m */,
+				83E95DD5195552D30030C45A /* JBChartView */,
+			);
+			name = ThirdParty;
+			sourceTree = "<group>";
+		};
+		83E95DD5195552D30030C45A /* JBChartView */ = {
+			isa = PBXGroup;
+			children = (
+				83E95DD6195552E00030C45A /* JBBarChartView.h */,
+				83E95DD7195552E00030C45A /* JBBarChartView.m */,
+				83E95DD8195552E00030C45A /* JBChartView.h */,
+				83E95DD9195552E00030C45A /* JBChartView.m */,
+				83E95DDA195552E00030C45A /* JBLineChartView.h */,
+				83E95DDB195552E00030C45A /* JBLineChartView.m */,
+			);
+			name = JBChartView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8397625619515D5D00B1464A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83E95DE0195552E00030C45A /* JBLineChartView.h in Headers */,
+				83B2D16A19555FAC009D73F0 /* RWTBitCoinStats.h in Headers */,
+				83E95DDE195552E00030C45A /* JBChartView.h in Headers */,
+				8397625E19515D5D00B1464A /* CryptoCurrencyKit.h in Headers */,
+				839762851951634900B1464A /* RWTBitCoinService.h in Headers */,
+				83E95DDC195552E00030C45A /* JBBarChartView.h in Headers */,
+				83E17A2C19574A880080FA45 /* NSDate+Utilities.h in Headers */,
+				83B2D16E19556080009D73F0 /* RWTBitCoinPrice.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		837B8FB119CF94E7004E505D /* BTC Widget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 837B8FC119CF94E7004E505D /* Build configuration list for PBXNativeTarget "BTC Widget" */;
+			buildPhases = (
+				837B8FAE19CF94E7004E505D /* Sources */,
+				837B8FAF19CF94E7004E505D /* Frameworks */,
+				837B8FB019CF94E7004E505D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BTC Widget";
+			productName = "BTC Widget";
+			productReference = 837B8FB219CF94E7004E505D /* BTC Widget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		8397625819515D5D00B1464A /* CryptoCurrencyKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8397627219515D5D00B1464A /* Build configuration list for PBXNativeTarget "CryptoCurrencyKit" */;
+			buildPhases = (
+				8397625419515D5D00B1464A /* Sources */,
+				8397625519515D5D00B1464A /* Frameworks */,
+				8397625619515D5D00B1464A /* Headers */,
+				8397625719515D5D00B1464A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CryptoCurrencyKit;
+			productName = CryptoCurrencyKit;
+			productReference = 8397625919515D5D00B1464A /* CryptoCurrencyKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8397626219515D5D00B1464A /* CryptoCurrencyKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8397627619515D5D00B1464A /* Build configuration list for PBXNativeTarget "CryptoCurrencyKitTests" */;
+			buildPhases = (
+				8397625F19515D5D00B1464A /* Sources */,
+				8397626019515D5D00B1464A /* Frameworks */,
+				8397626119515D5D00B1464A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8397626619515D5D00B1464A /* PBXTargetDependency */,
+				8397627A19515D5E00B1464A /* PBXTargetDependency */,
+				839762901951651800B1464A /* PBXTargetDependency */,
+				83E95DCF1955509D0030C45A /* PBXTargetDependency */,
+				83E95DD11955509D0030C45A /* PBXTargetDependency */,
+			);
+			name = CryptoCurrencyKitTests;
+			productName = CryptoCurrencyKitTests;
+			productReference = 8397626319515D5D00B1464A /* CryptoCurrencyKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		83A7416F19515CCA00D1ED4F /* Crypticker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83A7419019515CCA00D1ED4F /* Build configuration list for PBXNativeTarget "Crypticker" */;
+			buildPhases = (
+				83A7416C19515CCA00D1ED4F /* Sources */,
+				83A7416D19515CCA00D1ED4F /* Frameworks */,
+				83A7416E19515CCA00D1ED4F /* Resources */,
+				8397627519515D5D00B1464A /* Embed Frameworks */,
+				83273A341957CB8F002146B5 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8397626D19515D5D00B1464A /* PBXTargetDependency */,
+				8397627119515D5D00B1464A /* PBXTargetDependency */,
+				837B8FBD19CF94E7004E505D /* PBXTargetDependency */,
+				837B8FC019CF94E7004E505D /* PBXTargetDependency */,
+			);
+			name = Crypticker;
+			productName = Crypticker;
+			productReference = 83A7417019515CCA00D1ED4F /* Crypticker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		83A7418519515CCA00D1ED4F /* CryptickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83A7419319515CCA00D1ED4F /* Build configuration list for PBXNativeTarget "CryptickerTests" */;
+			buildPhases = (
+				83A7418219515CCA00D1ED4F /* Sources */,
+				83A7418319515CCA00D1ED4F /* Frameworks */,
+				83A7418419515CCA00D1ED4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83A7418819515CCA00D1ED4F /* PBXTargetDependency */,
+				8397628A1951643D00B1464A /* PBXTargetDependency */,
+				8397628C1951651700B1464A /* PBXTargetDependency */,
+				8397628E1951651700B1464A /* PBXTargetDependency */,
+			);
+			name = CryptickerTests;
+			productName = CryptickerTests;
+			productReference = 83A7418619515CCA00D1ED4F /* CryptickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83A7416819515CCA00D1ED4F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Ray Wenderlich LLC";
+				TargetAttributes = {
+					837B8FB119CF94E7004E505D = {
+						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = X28LAA5D4H;
+					};
+					8397625819515D5D00B1464A = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					8397626219515D5D00B1464A = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 8397625819515D5D00B1464A;
+					};
+					83A7416F19515CCA00D1ED4F = {
+						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = X28LAA5D4H;
+					};
+					83A7418519515CCA00D1ED4F = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 83A7416F19515CCA00D1ED4F;
+					};
+				};
+			};
+			buildConfigurationList = 83A7416B19515CCA00D1ED4F /* Build configuration list for PBXProject "Crypticker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83A7416719515CCA00D1ED4F;
+			productRefGroup = 83A7417119515CCA00D1ED4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83A7416F19515CCA00D1ED4F /* Crypticker */,
+				83A7418519515CCA00D1ED4F /* CryptickerTests */,
+				8397625819515D5D00B1464A /* CryptoCurrencyKit */,
+				8397626219515D5D00B1464A /* CryptoCurrencyKitTests */,
+				837B8FB119CF94E7004E505D /* BTC Widget */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		837B8FB019CF94E7004E505D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				837B8FBB19CF94E7004E505D /* MainInterface.storyboard in Resources */,
+				837B8FC519CF9E25004E505D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8397625719515D5D00B1464A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8397626119515D5D00B1464A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83A7416E19515CCA00D1ED4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83A7417F19515CCA00D1ED4F /* Main.storyboard in Resources */,
+				83A7418119515CCA00D1ED4F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83A7418419515CCA00D1ED4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		837B8FAE19CF94E7004E505D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				837B8FB919CF94E7004E505D /* TodayViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8397625419515D5D00B1464A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				839762861951634900B1464A /* RWTBitCoinService.m in Sources */,
+				83E95DE1195552E00030C45A /* JBLineChartView.m in Sources */,
+				83E95DDF195552E00030C45A /* JBChartView.m in Sources */,
+				83D6872B1957FFB0006D7675 /* RWTCurrencyDataViewController.m in Sources */,
+				83E95DDD195552E00030C45A /* JBBarChartView.m in Sources */,
+				83B2D16F19556080009D73F0 /* RWTBitCoinPrice.m in Sources */,
+				83B2D16B19555FAC009D73F0 /* RWTBitCoinStats.m in Sources */,
+				83E17A2D19574A880080FA45 /* NSDate+Utilities.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8397625F19515D5D00B1464A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8397626B19515D5D00B1464A /* CryptoCurrencyKitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83A7416C19515CCA00D1ED4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83A7417919515CCA00D1ED4F /* AppDelegate.m in Sources */,
+				8397625319515D1A00B1464A /* MainViewController.m in Sources */,
+				83A7417619515CCA00D1ED4F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83A7418219515CCA00D1ED4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83A7418D19515CCA00D1ED4F /* CryptickerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		837B8FBD19CF94E7004E505D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 837B8FB119CF94E7004E505D /* BTC Widget */;
+			targetProxy = 837B8FBC19CF94E7004E505D /* PBXContainerItemProxy */;
+		};
+		837B8FC019CF94E7004E505D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 837B8FB119CF94E7004E505D /* BTC Widget */;
+			targetProxy = 837B8FBF19CF94E7004E505D /* PBXContainerItemProxy */;
+		};
+		8397626619515D5D00B1464A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8397625819515D5D00B1464A /* CryptoCurrencyKit */;
+			targetProxy = 8397626519515D5D00B1464A /* PBXContainerItemProxy */;
+		};
+		8397626D19515D5D00B1464A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8397625819515D5D00B1464A /* CryptoCurrencyKit */;
+			targetProxy = 8397626C19515D5D00B1464A /* PBXContainerItemProxy */;
+		};
+		8397627119515D5D00B1464A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8397625819515D5D00B1464A /* CryptoCurrencyKit */;
+			targetProxy = 8397627019515D5D00B1464A /* PBXContainerItemProxy */;
+		};
+		8397627A19515D5E00B1464A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8397625819515D5D00B1464A /* CryptoCurrencyKit */;
+			targetProxy = 8397627919515D5E00B1464A /* PBXContainerItemProxy */;
+		};
+		8397628A1951643D00B1464A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83A7416F19515CCA00D1ED4F /* Crypticker */;
+			targetProxy = 839762891951643D00B1464A /* PBXContainerItemProxy */;
+		};
+		8397628C1951651700B1464A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83A7416F19515CCA00D1ED4F /* Crypticker */;
+			targetProxy = 8397628B1951651700B1464A /* PBXContainerItemProxy */;
+		};
+		8397628E1951651700B1464A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83A7416F19515CCA00D1ED4F /* Crypticker */;
+			targetProxy = 8397628D1951651700B1464A /* PBXContainerItemProxy */;
+		};
+		839762901951651800B1464A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8397625819515D5D00B1464A /* CryptoCurrencyKit */;
+			targetProxy = 8397628F1951651800B1464A /* PBXContainerItemProxy */;
+		};
+		83A7418819515CCA00D1ED4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83A7416F19515CCA00D1ED4F /* Crypticker */;
+			targetProxy = 83A7418719515CCA00D1ED4F /* PBXContainerItemProxy */;
+		};
+		83E95DCF1955509D0030C45A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8397625819515D5D00B1464A /* CryptoCurrencyKit */;
+			targetProxy = 83E95DCE1955509D0030C45A /* PBXContainerItemProxy */;
+		};
+		83E95DD11955509D0030C45A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8397625819515D5D00B1464A /* CryptoCurrencyKit */;
+			targetProxy = 83E95DD01955509D0030C45A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		83A7417D19515CCA00D1ED4F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83A7417E19515CCA00D1ED4F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		837B8FC219CF94E7004E505D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BTC Widget/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		837B8FC319CF94E7004E505D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "BTC Widget/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		8397627319515D5D00B1464A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CryptoCurrencyKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8397627419515D5D00B1464A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = CryptoCurrencyKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8397627719515D5D00B1464A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CryptoCurrencyKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8397627819515D5D00B1464A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CryptoCurrencyKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		83A7418E19515CCA00D1ED4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		83A7418F19515CCA00D1ED4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		83A7419119515CCA00D1ED4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Crypticker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		83A7419219515CCA00D1ED4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Crypticker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		83A7419419515CCA00D1ED4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Crypticker.app/Crypticker";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CryptickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		83A7419519515CCA00D1ED4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Crypticker.app/Crypticker";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CryptickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		837B8FC119CF94E7004E505D /* Build configuration list for PBXNativeTarget "BTC Widget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				837B8FC219CF94E7004E505D /* Debug */,
+				837B8FC319CF94E7004E505D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8397627219515D5D00B1464A /* Build configuration list for PBXNativeTarget "CryptoCurrencyKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8397627319515D5D00B1464A /* Debug */,
+				8397627419515D5D00B1464A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8397627619515D5D00B1464A /* Build configuration list for PBXNativeTarget "CryptoCurrencyKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8397627719515D5D00B1464A /* Debug */,
+				8397627819515D5D00B1464A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83A7416B19515CCA00D1ED4F /* Build configuration list for PBXProject "Crypticker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83A7418E19515CCA00D1ED4F /* Debug */,
+				83A7418F19515CCA00D1ED4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83A7419019515CCA00D1ED4F /* Build configuration list for PBXNativeTarget "Crypticker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83A7419119515CCA00D1ED4F /* Debug */,
+				83A7419219515CCA00D1ED4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83A7419319515CCA00D1ED4F /* Build configuration list for PBXNativeTarget "CryptickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83A7419419515CCA00D1ED4F /* Debug */,
+				83A7419519515CCA00D1ED4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83A7416819515CCA00D1ED4F /* Project object */;
+}

@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80A0F134195A20C70010928D /* RWTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80A0F133195A20C70010928D /* RWTViewController.m */; };
+		80A315FF1955487500C5E914 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 80A315FE1955487500C5E914 /* main.m */; };
+		80A316021955487500C5E914 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 80A316011955487500C5E914 /* AppDelegate.m */; };
+		80A316081955487500C5E914 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80A316061955487500C5E914 /* Main.storyboard */; };
+		80A3160A1955487500C5E914 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80A316091955487500C5E914 /* Images.xcassets */; };
+		80A316161955487500C5E914 /* RWTCarbonVisualizerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 80A316151955487500C5E914 /* RWTCarbonVisualizerTests.m */; };
+		80D4E309195B6D3C00EBB109 /* RWTAtoms.m in Sources */ = {isa = PBXBuildFile; fileRef = 80D4E308195B6D3C00EBB109 /* RWTAtoms.m */; };
+		80D4E30C195B6F8700EBB109 /* RWTMolecules.m in Sources */ = {isa = PBXBuildFile; fileRef = 80D4E30B195B6F8700EBB109 /* RWTMolecules.m */; };
+		80D4E314195B8E6900EBB109 /* EthanolScene.dae in Resources */ = {isa = PBXBuildFile; fileRef = 80D4E313195B8E6900EBB109 /* EthanolScene.dae */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		80A316101955487500C5E914 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80A315F11955487500C5E914 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80A315F81955487500C5E914;
+			remoteInfo = RWTCarbonVisualizer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		80A0F132195A20C70010928D /* RWTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWTViewController.h; sourceTree = "<group>"; };
+		80A0F133195A20C70010928D /* RWTViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWTViewController.m; sourceTree = "<group>"; };
+		80A315F91955487500C5E914 /* RWTCarbonVisualizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RWTCarbonVisualizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80A315FD1955487500C5E914 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80A315FE1955487500C5E914 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		80A316001955487500C5E914 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		80A316011955487500C5E914 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		80A316071955487500C5E914 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		80A316091955487500C5E914 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		80A3160F1955487500C5E914 /* RWTCarbonVisualizerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RWTCarbonVisualizerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80A316141955487500C5E914 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80A316151955487500C5E914 /* RWTCarbonVisualizerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RWTCarbonVisualizerTests.m; sourceTree = "<group>"; };
+		80D4E307195B6D3C00EBB109 /* RWTAtoms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWTAtoms.h; sourceTree = "<group>"; };
+		80D4E308195B6D3C00EBB109 /* RWTAtoms.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWTAtoms.m; sourceTree = "<group>"; };
+		80D4E30A195B6F8700EBB109 /* RWTMolecules.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWTMolecules.h; sourceTree = "<group>"; };
+		80D4E30B195B6F8700EBB109 /* RWTMolecules.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWTMolecules.m; sourceTree = "<group>"; };
+		80D4E313195B8E6900EBB109 /* EthanolScene.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = EthanolScene.dae; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80A315F61955487500C5E914 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80A3160C1955487500C5E914 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80A315F01955487500C5E914 = {
+			isa = PBXGroup;
+			children = (
+				80A315FB1955487500C5E914 /* RWTCarbonVisualizer */,
+				80A316121955487500C5E914 /* RWTCarbonVisualizerTests */,
+				80A315FA1955487500C5E914 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80A315FA1955487500C5E914 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80A315F91955487500C5E914 /* RWTCarbonVisualizer.app */,
+				80A3160F1955487500C5E914 /* RWTCarbonVisualizerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80A315FB1955487500C5E914 /* RWTCarbonVisualizer */ = {
+			isa = PBXGroup;
+			children = (
+				80A316001955487500C5E914 /* AppDelegate.h */,
+				80A316011955487500C5E914 /* AppDelegate.m */,
+				80A0F132195A20C70010928D /* RWTViewController.h */,
+				80A0F133195A20C70010928D /* RWTViewController.m */,
+				80D4E307195B6D3C00EBB109 /* RWTAtoms.h */,
+				80D4E308195B6D3C00EBB109 /* RWTAtoms.m */,
+				80D4E30A195B6F8700EBB109 /* RWTMolecules.h */,
+				80D4E30B195B6F8700EBB109 /* RWTMolecules.m */,
+				80A316061955487500C5E914 /* Main.storyboard */,
+				80A316091955487500C5E914 /* Images.xcassets */,
+				80D4E313195B8E6900EBB109 /* EthanolScene.dae */,
+				80A315FC1955487500C5E914 /* Supporting Files */,
+			);
+			path = RWTCarbonVisualizer;
+			sourceTree = "<group>";
+		};
+		80A315FC1955487500C5E914 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				80A315FD1955487500C5E914 /* Info.plist */,
+				80A315FE1955487500C5E914 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		80A316121955487500C5E914 /* RWTCarbonVisualizerTests */ = {
+			isa = PBXGroup;
+			children = (
+				80A316151955487500C5E914 /* RWTCarbonVisualizerTests.m */,
+				80A316131955487500C5E914 /* Supporting Files */,
+			);
+			path = RWTCarbonVisualizerTests;
+			sourceTree = "<group>";
+		};
+		80A316131955487500C5E914 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				80A316141955487500C5E914 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80A315F81955487500C5E914 /* RWTCarbonVisualizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80A316191955487500C5E914 /* Build configuration list for PBXNativeTarget "RWTCarbonVisualizer" */;
+			buildPhases = (
+				80A315F51955487500C5E914 /* Sources */,
+				80A315F61955487500C5E914 /* Frameworks */,
+				80A315F71955487500C5E914 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RWTCarbonVisualizer;
+			productName = RWTCarbonVisualizer;
+			productReference = 80A315F91955487500C5E914 /* RWTCarbonVisualizer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		80A3160E1955487500C5E914 /* RWTCarbonVisualizerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80A3161C1955487500C5E914 /* Build configuration list for PBXNativeTarget "RWTCarbonVisualizerTests" */;
+			buildPhases = (
+				80A3160B1955487500C5E914 /* Sources */,
+				80A3160C1955487500C5E914 /* Frameworks */,
+				80A3160D1955487500C5E914 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80A316111955487500C5E914 /* PBXTargetDependency */,
+			);
+			name = RWTCarbonVisualizerTests;
+			productName = RWTCarbonVisualizerTests;
+			productReference = 80A3160F1955487500C5E914 /* RWTCarbonVisualizerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80A315F11955487500C5E914 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = RayWenderlich;
+				TargetAttributes = {
+					80A315F81955487500C5E914 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					80A3160E1955487500C5E914 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 80A315F81955487500C5E914;
+					};
+				};
+			};
+			buildConfigurationList = 80A315F41955487500C5E914 /* Build configuration list for PBXProject "RWTCarbonVisualizer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 80A315F01955487500C5E914;
+			productRefGroup = 80A315FA1955487500C5E914 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80A315F81955487500C5E914 /* RWTCarbonVisualizer */,
+				80A3160E1955487500C5E914 /* RWTCarbonVisualizerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80A315F71955487500C5E914 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80D4E314195B8E6900EBB109 /* EthanolScene.dae in Resources */,
+				80A316081955487500C5E914 /* Main.storyboard in Resources */,
+				80A3160A1955487500C5E914 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80A3160D1955487500C5E914 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80A315F51955487500C5E914 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80A316021955487500C5E914 /* AppDelegate.m in Sources */,
+				80A0F134195A20C70010928D /* RWTViewController.m in Sources */,
+				80D4E30C195B6F8700EBB109 /* RWTMolecules.m in Sources */,
+				80D4E309195B6D3C00EBB109 /* RWTAtoms.m in Sources */,
+				80A315FF1955487500C5E914 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80A3160B1955487500C5E914 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80A316161955487500C5E914 /* RWTCarbonVisualizerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		80A316111955487500C5E914 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80A315F81955487500C5E914 /* RWTCarbonVisualizer */;
+			targetProxy = 80A316101955487500C5E914 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		80A316061955487500C5E914 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80A316071955487500C5E914 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80A316171955487500C5E914 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		80A316181955487500C5E914 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80A3161A1955487500C5E914 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = RWTCarbonVisualizer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		80A3161B1955487500C5E914 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = RWTCarbonVisualizer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		80A3161D1955487500C5E914 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RWTCarbonVisualizer.app/RWTCarbonVisualizer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RWTCarbonVisualizerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		80A3161E1955487500C5E914 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RWTCarbonVisualizer.app/RWTCarbonVisualizer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RWTCarbonVisualizerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80A315F41955487500C5E914 /* Build configuration list for PBXProject "RWTCarbonVisualizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80A316171955487500C5E914 /* Debug */,
+				80A316181955487500C5E914 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80A316191955487500C5E914 /* Build configuration list for PBXNativeTarget "RWTCarbonVisualizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80A3161A1955487500C5E914 /* Debug */,
+				80A3161B1955487500C5E914 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80A3161C1955487500C5E914 /* Build configuration list for PBXNativeTarget "RWTCarbonVisualizerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80A3161D1955487500C5E914 /* Debug */,
+				80A3161E1955487500C5E914 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80A315F11955487500C5E914 /* Project object */;
+}

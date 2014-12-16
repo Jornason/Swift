@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D44F1C31951C58C00715768 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D44F1C21951C58C00715768 /* main.m */; };
+		4D44F1C61951C58C00715768 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D44F1C51951C58C00715768 /* AppDelegate.m */; };
+		4D44F1CC1951C58C00715768 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D44F1CA1951C58C00715768 /* Main.storyboard */; };
+		4D44F1CE1951C58C00715768 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D44F1CD1951C58C00715768 /* Images.xcassets */; };
+		4D44F1DA1951C58C00715768 /* StitchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D44F1D91951C58C00715768 /* StitchTests.m */; };
+		4D67D917195C466F0069FBD2 /* StitchesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D67D916195C466F0069FBD2 /* StitchesViewController.m */; };
+		4D67D91A195C488D0069FBD2 /* StitchDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D67D919195C488D0069FBD2 /* StitchDetailViewController.m */; };
+		4D74AEF01957693700E163E3 /* AssetsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D74AEEF1957693700E163E3 /* AssetsViewController.m */; };
+		4D74AEF319576B9B00E163E3 /* AssetCollectionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D74AEF219576B9B00E163E3 /* AssetCollectionsViewController.m */; };
+		4D74AEF61957805100E163E3 /* AssetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D74AEF51957805100E163E3 /* AssetCell.m */; };
+		4D83A8C41960A7AC003727B6 /* StitchHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D83A8C31960A7AC003727B6 /* StitchHelper.m */; };
+		4DFC2E321966C99C00EA0F98 /* UIColor+ThemeColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DFC2E311966C99C00EA0F98 /* UIColor+ThemeColors.m */; };
+		4DFC2E351966D3DC00EA0F98 /* SSCheckMark.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DFC2E341966D3DC00EA0F98 /* SSCheckMark.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D23AD7A19545D820001949F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D44F1B51951C58C00715768 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D44F1BC1951C58C00715768;
+			remoteInfo = Stitch;
+		};
+		4D23AD7C19545D820001949F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D44F1B51951C58C00715768 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D44F1BC1951C58C00715768;
+			remoteInfo = Stitch;
+		};
+		4D44F1D41951C58C00715768 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D44F1B51951C58C00715768 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D44F1BC1951C58C00715768;
+			remoteInfo = Stitch;
+		};
+		4DC785F01961F461006F3736 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D44F1B51951C58C00715768 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D44F1BC1951C58C00715768;
+			remoteInfo = Stitch;
+		};
+		4DC785F21961F461006F3736 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D44F1B51951C58C00715768 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D44F1BC1951C58C00715768;
+			remoteInfo = Stitch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4D44F1BD1951C58C00715768 /* Stitch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stitch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D44F1C11951C58C00715768 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D44F1C21951C58C00715768 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4D44F1C41951C58C00715768 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4D44F1C51951C58C00715768 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4D44F1CB1951C58C00715768 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4D44F1CD1951C58C00715768 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4D44F1D31951C58C00715768 /* StitchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StitchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D44F1D81951C58C00715768 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D44F1D91951C58C00715768 /* StitchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StitchTests.m; sourceTree = "<group>"; };
+		4D67D915195C466F0069FBD2 /* StitchesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StitchesViewController.h; sourceTree = "<group>"; };
+		4D67D916195C466F0069FBD2 /* StitchesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StitchesViewController.m; sourceTree = "<group>"; };
+		4D67D918195C488D0069FBD2 /* StitchDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StitchDetailViewController.h; sourceTree = "<group>"; };
+		4D67D919195C488D0069FBD2 /* StitchDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StitchDetailViewController.m; sourceTree = "<group>"; };
+		4D74AEEE1957693700E163E3 /* AssetsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssetsViewController.h; sourceTree = "<group>"; };
+		4D74AEEF1957693700E163E3 /* AssetsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AssetsViewController.m; sourceTree = "<group>"; };
+		4D74AEF119576B9B00E163E3 /* AssetCollectionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssetCollectionsViewController.h; sourceTree = "<group>"; };
+		4D74AEF219576B9B00E163E3 /* AssetCollectionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AssetCollectionsViewController.m; sourceTree = "<group>"; };
+		4D74AEF41957805100E163E3 /* AssetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AssetCell.h; path = ../../Views/AssetCell.h; sourceTree = "<group>"; };
+		4D74AEF51957805100E163E3 /* AssetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AssetCell.m; path = ../../Views/AssetCell.m; sourceTree = "<group>"; };
+		4D83A8C21960A7AC003727B6 /* StitchHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StitchHelper.h; sourceTree = "<group>"; };
+		4D83A8C31960A7AC003727B6 /* StitchHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StitchHelper.m; sourceTree = "<group>"; };
+		4DFC2E301966C99C00EA0F98 /* UIColor+ThemeColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ThemeColors.h"; sourceTree = "<group>"; };
+		4DFC2E311966C99C00EA0F98 /* UIColor+ThemeColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ThemeColors.m"; sourceTree = "<group>"; };
+		4DFC2E331966D3DC00EA0F98 /* SSCheckMark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSCheckMark.h; path = ../../Views/SSCheckMark.h; sourceTree = "<group>"; };
+		4DFC2E341966D3DC00EA0F98 /* SSCheckMark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSCheckMark.m; path = ../../Views/SSCheckMark.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D44F1BA1951C58C00715768 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D44F1D01951C58C00715768 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D44F1B41951C58C00715768 = {
+			isa = PBXGroup;
+			children = (
+				4D44F1BF1951C58C00715768 /* Stitch */,
+				4D44F1D61951C58C00715768 /* StitchTests */,
+				4D44F1BE1951C58C00715768 /* Products */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		4D44F1BE1951C58C00715768 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D44F1BD1951C58C00715768 /* Stitch.app */,
+				4D44F1D31951C58C00715768 /* StitchTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D44F1BF1951C58C00715768 /* Stitch */ = {
+			isa = PBXGroup;
+			children = (
+				4D44F1CA1951C58C00715768 /* Main.storyboard */,
+				4D44F1C41951C58C00715768 /* AppDelegate.h */,
+				4D44F1C51951C58C00715768 /* AppDelegate.m */,
+				4DB40774196799A900046F96 /* View Controllers */,
+				4DB40776196799C900046F96 /* Helpers */,
+				4D67D914195C465B0069FBD2 /* Asset Picker */,
+				4DB40777196799D000046F96 /* Categories */,
+				4D44F1CD1951C58C00715768 /* Images.xcassets */,
+				4D44F1C01951C58C00715768 /* Supporting Files */,
+			);
+			path = Stitch;
+			sourceTree = "<group>";
+		};
+		4D44F1C01951C58C00715768 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D44F1C11951C58C00715768 /* Info.plist */,
+				4D44F1C21951C58C00715768 /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4D44F1D61951C58C00715768 /* StitchTests */ = {
+			isa = PBXGroup;
+			children = (
+				4D44F1D91951C58C00715768 /* StitchTests.m */,
+				4D44F1D71951C58C00715768 /* Supporting Files */,
+			);
+			path = StitchTests;
+			sourceTree = "<group>";
+		};
+		4D44F1D71951C58C00715768 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D44F1D81951C58C00715768 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4D67D914195C465B0069FBD2 /* Asset Picker */ = {
+			isa = PBXGroup;
+			children = (
+				4D74AEF119576B9B00E163E3 /* AssetCollectionsViewController.h */,
+				4D74AEF219576B9B00E163E3 /* AssetCollectionsViewController.m */,
+				4D74AEEE1957693700E163E3 /* AssetsViewController.h */,
+				4D74AEEF1957693700E163E3 /* AssetsViewController.m */,
+				4D74AEF41957805100E163E3 /* AssetCell.h */,
+				4D74AEF51957805100E163E3 /* AssetCell.m */,
+				4DFC2E331966D3DC00EA0F98 /* SSCheckMark.h */,
+				4DFC2E341966D3DC00EA0F98 /* SSCheckMark.m */,
+			);
+			name = "Asset Picker";
+			path = "View Controllers/Asset Picker";
+			sourceTree = "<group>";
+		};
+		4DB40774196799A900046F96 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4D67D915195C466F0069FBD2 /* StitchesViewController.h */,
+				4D67D916195C466F0069FBD2 /* StitchesViewController.m */,
+				4D67D918195C488D0069FBD2 /* StitchDetailViewController.h */,
+				4D67D919195C488D0069FBD2 /* StitchDetailViewController.m */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		4DB40776196799C900046F96 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				4D83A8C21960A7AC003727B6 /* StitchHelper.h */,
+				4D83A8C31960A7AC003727B6 /* StitchHelper.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		4DB40777196799D000046F96 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				4DFC2E301966C99C00EA0F98 /* UIColor+ThemeColors.h */,
+				4DFC2E311966C99C00EA0F98 /* UIColor+ThemeColors.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D44F1BC1951C58C00715768 /* Stitch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D44F1DD1951C58C00715768 /* Build configuration list for PBXNativeTarget "Stitch" */;
+			buildPhases = (
+				4D44F1B91951C58C00715768 /* Sources */,
+				4D44F1BA1951C58C00715768 /* Frameworks */,
+				4D44F1BB1951C58C00715768 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Stitch;
+			productName = Stitch;
+			productReference = 4D44F1BD1951C58C00715768 /* Stitch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4D44F1D21951C58C00715768 /* StitchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D44F1E01951C58C00715768 /* Build configuration list for PBXNativeTarget "StitchTests" */;
+			buildPhases = (
+				4D44F1CF1951C58C00715768 /* Sources */,
+				4D44F1D01951C58C00715768 /* Frameworks */,
+				4D44F1D11951C58C00715768 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D44F1D51951C58C00715768 /* PBXTargetDependency */,
+				4D23AD7B19545D820001949F /* PBXTargetDependency */,
+				4D23AD7D19545D820001949F /* PBXTargetDependency */,
+				4DC785F11961F461006F3736 /* PBXTargetDependency */,
+				4DC785F31961F461006F3736 /* PBXTargetDependency */,
+			);
+			name = StitchTests;
+			productName = StitchTests;
+			productReference = 4D44F1D31951C58C00715768 /* StitchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D44F1B51951C58C00715768 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "";
+				TargetAttributes = {
+					4D44F1BC1951C58C00715768 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					4D44F1D21951C58C00715768 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 4D44F1BC1951C58C00715768;
+					};
+				};
+			};
+			buildConfigurationList = 4D44F1B81951C58C00715768 /* Build configuration list for PBXProject "Stitch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D44F1B41951C58C00715768;
+			productRefGroup = 4D44F1BE1951C58C00715768 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D44F1BC1951C58C00715768 /* Stitch */,
+				4D44F1D21951C58C00715768 /* StitchTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D44F1BB1951C58C00715768 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D44F1CC1951C58C00715768 /* Main.storyboard in Resources */,
+				4D44F1CE1951C58C00715768 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D44F1D11951C58C00715768 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D44F1B91951C58C00715768 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DFC2E351966D3DC00EA0F98 /* SSCheckMark.m in Sources */,
+				4D67D91A195C488D0069FBD2 /* StitchDetailViewController.m in Sources */,
+				4D67D917195C466F0069FBD2 /* StitchesViewController.m in Sources */,
+				4D74AEF01957693700E163E3 /* AssetsViewController.m in Sources */,
+				4D83A8C41960A7AC003727B6 /* StitchHelper.m in Sources */,
+				4D74AEF61957805100E163E3 /* AssetCell.m in Sources */,
+				4D44F1C61951C58C00715768 /* AppDelegate.m in Sources */,
+				4D44F1C31951C58C00715768 /* main.m in Sources */,
+				4D74AEF319576B9B00E163E3 /* AssetCollectionsViewController.m in Sources */,
+				4DFC2E321966C99C00EA0F98 /* UIColor+ThemeColors.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D44F1CF1951C58C00715768 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D44F1DA1951C58C00715768 /* StitchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D23AD7B19545D820001949F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D44F1BC1951C58C00715768 /* Stitch */;
+			targetProxy = 4D23AD7A19545D820001949F /* PBXContainerItemProxy */;
+		};
+		4D23AD7D19545D820001949F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D44F1BC1951C58C00715768 /* Stitch */;
+			targetProxy = 4D23AD7C19545D820001949F /* PBXContainerItemProxy */;
+		};
+		4D44F1D51951C58C00715768 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D44F1BC1951C58C00715768 /* Stitch */;
+			targetProxy = 4D44F1D41951C58C00715768 /* PBXContainerItemProxy */;
+		};
+		4DC785F11961F461006F3736 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D44F1BC1951C58C00715768 /* Stitch */;
+			targetProxy = 4DC785F01961F461006F3736 /* PBXContainerItemProxy */;
+		};
+		4DC785F31961F461006F3736 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D44F1BC1951C58C00715768 /* Stitch */;
+			targetProxy = 4DC785F21961F461006F3736 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4D44F1CA1951C58C00715768 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D44F1CB1951C58C00715768 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D44F1DB1951C58C00715768 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4D44F1DC1951C58C00715768 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D44F1DE1951C58C00715768 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "Stitch/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4D44F1DF1951C58C00715768 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "Stitch/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4D44F1E11951C58C00715768 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Stitch.app/Stitch";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "StitchTests/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		4D44F1E21951C58C00715768 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Stitch.app/Stitch";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "StitchTests/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D44F1B81951C58C00715768 /* Build configuration list for PBXProject "Stitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D44F1DB1951C58C00715768 /* Debug */,
+				4D44F1DC1951C58C00715768 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D44F1DD1951C58C00715768 /* Build configuration list for PBXNativeTarget "Stitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D44F1DE1951C58C00715768 /* Debug */,
+				4D44F1DF1951C58C00715768 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D44F1E01951C58C00715768 /* Build configuration list for PBXNativeTarget "StitchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D44F1E11951C58C00715768 /* Debug */,
+				4D44F1E21951C58C00715768 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D44F1B51951C58C00715768 /* Project object */;
+}

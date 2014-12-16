@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6117BD05195DB8C00028F1B5 /* RWTPlaceManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6117BD04195DB8C00028F1B5 /* RWTPlaceManagerTests.m */; };
+		6117BD08195DBAAB0028F1B5 /* NSBundle+RWTTestAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6117BD07195DBAAB0028F1B5 /* NSBundle+RWTTestAdditions.m */; };
+		6D3079BE1964DFB100CF5131 /* RWTTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D3079BD1964DFB100CF5131 /* RWTTableViewCell.m */; };
+		6D323579195A5B4100210957 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D323578195A5B4100210957 /* main.m */; };
+		6D32357C195A5B4100210957 /* RWTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D32357B195A5B4100210957 /* RWTAppDelegate.m */; };
+		6D32357E195A5B4100210957 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D32357D195A5B4100210957 /* Images.xcassets */; };
+		6D3EE4C7195BD2BA006670EA /* RWTPlaceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D3EE4C6195BD2BA006670EA /* RWTPlaceManager.m */; };
+		6D3EE4CC195D22C1006670EA /* RWTTraitOverrideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D3EE4CB195D22C1006670EA /* RWTTraitOverrideViewController.m */; };
+		6D3EE4D0195D2758006670EA /* RWTPlaceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D3EE4CF195D2758006670EA /* RWTPlaceTests.m */; };
+		6D3EE4D4195D2889006670EA /* Places.json in Resources */ = {isa = PBXBuildFile; fileRef = 6D3EE4D3195D2889006670EA /* Places.json */; };
+		6D3EE4D9195D2B16006670EA /* mosconecenter.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D3EE4D5195D2B16006670EA /* mosconecenter.png */; };
+		6D3EE4DB195D2B16006670EA /* goldengatebridge.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D3EE4D7195D2B16006670EA /* goldengatebridge.png */; };
+		6D3EE4DC195D2B16006670EA /* dykenpond.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D3EE4D8195D2B16006670EA /* dykenpond.png */; };
+		6D3EE4E1195D2EEE006670EA /* SampleResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = 6D3EE4E0195D2EEE006670EA /* SampleResponse.json */; };
+		6DA2CB37195A5DDA00BFFD0A /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DA2CB36195A5DDA00BFFD0A /* Storyboard.storyboard */; };
+		6DAADA2B195A6FFE003547A1 /* RWTPlace.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DAADA2A195A6FFE003547A1 /* RWTPlace.m */; };
+		6DAADA2E195A717B003547A1 /* RWTMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DAADA2D195A717B003547A1 /* RWTMapViewController.m */; };
+		6DAADA34195A71CC003547A1 /* RWTMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DAADA33195A71CC003547A1 /* RWTMasterViewController.m */; };
+		6DAADA3A195A7A71003547A1 /* RWTSplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DAADA39195A7A71003547A1 /* RWTSplitViewController.m */; };
+		6DB014A7196217FB00953AB0 /* capecod.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DB014A4196217FB00953AB0 /* capecod.png */; };
+		6DB014A8196217FB00953AB0 /* schoharie.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DB014A5196217FB00953AB0 /* schoharie.png */; };
+		6DB014A9196217FB00953AB0 /* tatcherpark.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DB014A6196217FB00953AB0 /* tatcherpark.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6D323584195A5B4100210957 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D32356B195A5B4100210957 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D323572195A5B4100210957;
+			remoteInfo = Places;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6117BD04195DB8C00028F1B5 /* RWTPlaceManagerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWTPlaceManagerTests.m; sourceTree = "<group>"; };
+		6117BD06195DBAAB0028F1B5 /* NSBundle+RWTTestAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+RWTTestAdditions.h"; sourceTree = "<group>"; };
+		6117BD07195DBAAB0028F1B5 /* NSBundle+RWTTestAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+RWTTestAdditions.m"; sourceTree = "<group>"; };
+		6D3079BC1964DFB100CF5131 /* RWTTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWTTableViewCell.h; sourceTree = "<group>"; };
+		6D3079BD1964DFB100CF5131 /* RWTTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWTTableViewCell.m; sourceTree = "<group>"; };
+		6D323573195A5B4100210957 /* Places.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Places.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D323577195A5B4100210957 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D323578195A5B4100210957 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6D32357A195A5B4100210957 /* RWTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWTAppDelegate.h; sourceTree = "<group>"; };
+		6D32357B195A5B4100210957 /* RWTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RWTAppDelegate.m; sourceTree = "<group>"; };
+		6D32357D195A5B4100210957 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6D323583195A5B4100210957 /* PlacesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlacesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D323588195A5B4100210957 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D3EE4C5195BD2BA006670EA /* RWTPlaceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWTPlaceManager.h; sourceTree = "<group>"; };
+		6D3EE4C6195BD2BA006670EA /* RWTPlaceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWTPlaceManager.m; sourceTree = "<group>"; };
+		6D3EE4CA195D22C1006670EA /* RWTTraitOverrideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWTTraitOverrideViewController.h; sourceTree = "<group>"; };
+		6D3EE4CB195D22C1006670EA /* RWTTraitOverrideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWTTraitOverrideViewController.m; sourceTree = "<group>"; };
+		6D3EE4CF195D2758006670EA /* RWTPlaceTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWTPlaceTests.m; sourceTree = "<group>"; };
+		6D3EE4D3195D2889006670EA /* Places.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Places.json; sourceTree = "<group>"; };
+		6D3EE4D5195D2B16006670EA /* mosconecenter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mosconecenter.png; sourceTree = "<group>"; };
+		6D3EE4D7195D2B16006670EA /* goldengatebridge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = goldengatebridge.png; sourceTree = "<group>"; };
+		6D3EE4D8195D2B16006670EA /* dykenpond.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dykenpond.png; sourceTree = "<group>"; };
+		6D3EE4E0195D2EEE006670EA /* SampleResponse.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SampleResponse.json; sourceTree = "<group>"; };
+		6DA2CB36195A5DDA00BFFD0A /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		6DAADA29195A6FFE003547A1 /* RWTPlace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWTPlace.h; sourceTree = "<group>"; };
+		6DAADA2A195A6FFE003547A1 /* RWTPlace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWTPlace.m; sourceTree = "<group>"; };
+		6DAADA2C195A717B003547A1 /* RWTMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWTMapViewController.h; sourceTree = "<group>"; };
+		6DAADA2D195A717B003547A1 /* RWTMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWTMapViewController.m; sourceTree = "<group>"; };
+		6DAADA32195A71CC003547A1 /* RWTMasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWTMasterViewController.h; sourceTree = "<group>"; };
+		6DAADA33195A71CC003547A1 /* RWTMasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWTMasterViewController.m; sourceTree = "<group>"; };
+		6DAADA38195A7A71003547A1 /* RWTSplitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWTSplitViewController.h; sourceTree = "<group>"; };
+		6DAADA39195A7A71003547A1 /* RWTSplitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWTSplitViewController.m; sourceTree = "<group>"; };
+		6DB014A4196217FB00953AB0 /* capecod.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = capecod.png; sourceTree = "<group>"; };
+		6DB014A5196217FB00953AB0 /* schoharie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = schoharie.png; sourceTree = "<group>"; };
+		6DB014A6196217FB00953AB0 /* tatcherpark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tatcherpark.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D323570195A5B4100210957 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D323580195A5B4100210957 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D32356A195A5B4100210957 = {
+			isa = PBXGroup;
+			children = (
+				6D323575195A5B4100210957 /* Places */,
+				6D323586195A5B4100210957 /* PlacesTests */,
+				6D323574195A5B4100210957 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6D323574195A5B4100210957 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D323573195A5B4100210957 /* Places.app */,
+				6D323583195A5B4100210957 /* PlacesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D323575195A5B4100210957 /* Places */ = {
+			isa = PBXGroup;
+			children = (
+				6DA2CB36195A5DDA00BFFD0A /* Storyboard.storyboard */,
+				6D32357A195A5B4100210957 /* RWTAppDelegate.h */,
+				6D32357B195A5B4100210957 /* RWTAppDelegate.m */,
+				6D3EE4CA195D22C1006670EA /* RWTTraitOverrideViewController.h */,
+				6D3EE4CB195D22C1006670EA /* RWTTraitOverrideViewController.m */,
+				6DAADA38195A7A71003547A1 /* RWTSplitViewController.h */,
+				6DAADA39195A7A71003547A1 /* RWTSplitViewController.m */,
+				6DAADA32195A71CC003547A1 /* RWTMasterViewController.h */,
+				6DAADA33195A71CC003547A1 /* RWTMasterViewController.m */,
+				6DAADA2C195A717B003547A1 /* RWTMapViewController.h */,
+				6DAADA2D195A717B003547A1 /* RWTMapViewController.m */,
+				6DAADA29195A6FFE003547A1 /* RWTPlace.h */,
+				6DAADA2A195A6FFE003547A1 /* RWTPlace.m */,
+				6D3EE4C5195BD2BA006670EA /* RWTPlaceManager.h */,
+				6D3EE4C6195BD2BA006670EA /* RWTPlaceManager.m */,
+				6D3079BC1964DFB100CF5131 /* RWTTableViewCell.h */,
+				6D3079BD1964DFB100CF5131 /* RWTTableViewCell.m */,
+				6D32357D195A5B4100210957 /* Images.xcassets */,
+				6D3EE4D2195D2889006670EA /* Resources */,
+				6D323576195A5B4100210957 /* Supporting Files */,
+			);
+			path = Places;
+			sourceTree = "<group>";
+		};
+		6D323576195A5B4100210957 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6D323577195A5B4100210957 /* Info.plist */,
+				6D323578195A5B4100210957 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6D323586195A5B4100210957 /* PlacesTests */ = {
+			isa = PBXGroup;
+			children = (
+				6D323587195A5B4100210957 /* Supporting Files */,
+				6D3EE4CF195D2758006670EA /* RWTPlaceTests.m */,
+				6117BD04195DB8C00028F1B5 /* RWTPlaceManagerTests.m */,
+				6117BD06195DBAAB0028F1B5 /* NSBundle+RWTTestAdditions.h */,
+				6117BD07195DBAAB0028F1B5 /* NSBundle+RWTTestAdditions.m */,
+				6D3EE4E0195D2EEE006670EA /* SampleResponse.json */,
+			);
+			path = PlacesTests;
+			sourceTree = "<group>";
+		};
+		6D323587195A5B4100210957 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6D323588195A5B4100210957 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6D3EE4D2195D2889006670EA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6D3EE4D3195D2889006670EA /* Places.json */,
+				6D3EE4D5195D2B16006670EA /* mosconecenter.png */,
+				6D3EE4D7195D2B16006670EA /* goldengatebridge.png */,
+				6DB014A4196217FB00953AB0 /* capecod.png */,
+				6DB014A5196217FB00953AB0 /* schoharie.png */,
+				6DB014A6196217FB00953AB0 /* tatcherpark.png */,
+				6D3EE4D8195D2B16006670EA /* dykenpond.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6D323572195A5B4100210957 /* Places */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D32358D195A5B4100210957 /* Build configuration list for PBXNativeTarget "Places" */;
+			buildPhases = (
+				6D32356F195A5B4100210957 /* Sources */,
+				6D323570195A5B4100210957 /* Frameworks */,
+				6D323571195A5B4100210957 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Places;
+			productName = Places;
+			productReference = 6D323573195A5B4100210957 /* Places.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6D323582195A5B4100210957 /* PlacesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D323590195A5B4100210957 /* Build configuration list for PBXNativeTarget "PlacesTests" */;
+			buildPhases = (
+				6D32357F195A5B4100210957 /* Sources */,
+				6D323580195A5B4100210957 /* Frameworks */,
+				6D323581195A5B4100210957 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D323585195A5B4100210957 /* PBXTargetDependency */,
+			);
+			name = PlacesTests;
+			productName = PlacesTests;
+			productReference = 6D323583195A5B4100210957 /* PlacesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D32356B195A5B4100210957 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RWT;
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Razeware LLC";
+				TargetAttributes = {
+					6D323572195A5B4100210957 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					6D323582195A5B4100210957 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 6D323572195A5B4100210957;
+					};
+				};
+			};
+			buildConfigurationList = 6D32356E195A5B4100210957 /* Build configuration list for PBXProject "Places" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6D32356A195A5B4100210957;
+			productRefGroup = 6D323574195A5B4100210957 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D323572195A5B4100210957 /* Places */,
+				6D323582195A5B4100210957 /* PlacesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D323571195A5B4100210957 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DB014A9196217FB00953AB0 /* tatcherpark.png in Resources */,
+				6DB014A7196217FB00953AB0 /* capecod.png in Resources */,
+				6D3EE4DB195D2B16006670EA /* goldengatebridge.png in Resources */,
+				6D3EE4DC195D2B16006670EA /* dykenpond.png in Resources */,
+				6D3EE4D4195D2889006670EA /* Places.json in Resources */,
+				6D3EE4D9195D2B16006670EA /* mosconecenter.png in Resources */,
+				6D32357E195A5B4100210957 /* Images.xcassets in Resources */,
+				6DB014A8196217FB00953AB0 /* schoharie.png in Resources */,
+				6DA2CB37195A5DDA00BFFD0A /* Storyboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D323581195A5B4100210957 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D3EE4E1195D2EEE006670EA /* SampleResponse.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D32356F195A5B4100210957 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D3079BE1964DFB100CF5131 /* RWTTableViewCell.m in Sources */,
+				6D32357C195A5B4100210957 /* RWTAppDelegate.m in Sources */,
+				6D3EE4C7195BD2BA006670EA /* RWTPlaceManager.m in Sources */,
+				6DAADA2E195A717B003547A1 /* RWTMapViewController.m in Sources */,
+				6DAADA34195A71CC003547A1 /* RWTMasterViewController.m in Sources */,
+				6D323579195A5B4100210957 /* main.m in Sources */,
+				6DAADA3A195A7A71003547A1 /* RWTSplitViewController.m in Sources */,
+				6D3EE4CC195D22C1006670EA /* RWTTraitOverrideViewController.m in Sources */,
+				6DAADA2B195A6FFE003547A1 /* RWTPlace.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D32357F195A5B4100210957 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6117BD08195DBAAB0028F1B5 /* NSBundle+RWTTestAdditions.m in Sources */,
+				6D3EE4D0195D2758006670EA /* RWTPlaceTests.m in Sources */,
+				6117BD05195DB8C00028F1B5 /* RWTPlaceManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6D323585195A5B4100210957 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D323572195A5B4100210957 /* Places */;
+			targetProxy = 6D323584195A5B4100210957 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6D32358B195A5B4100210957 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6D32358C195A5B4100210957 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6D32358E195A5B4100210957 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Places/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6D32358F195A5B4100210957 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Places/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6D323591195A5B4100210957 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Places.app/Places";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PlacesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		6D323592195A5B4100210957 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Places.app/Places";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PlacesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D32356E195A5B4100210957 /* Build configuration list for PBXProject "Places" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D32358B195A5B4100210957 /* Debug */,
+				6D32358C195A5B4100210957 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D32358D195A5B4100210957 /* Build configuration list for PBXNativeTarget "Places" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D32358E195A5B4100210957 /* Debug */,
+				6D32358F195A5B4100210957 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D323590195A5B4100210957 /* Build configuration list for PBXNativeTarget "PlacesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D323591195A5B4100210957 /* Debug */,
+				6D323592195A5B4100210957 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6D32356B195A5B4100210957 /* Project object */;
+}

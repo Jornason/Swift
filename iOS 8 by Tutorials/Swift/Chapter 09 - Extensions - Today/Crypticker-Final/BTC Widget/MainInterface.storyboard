@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6185.11" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="M4Y-Lb-cyx">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6190.4"/>
+    </dependencies>
+    <scenes>
+        <!--Today View Controller-->
+        <scene sceneID="cwh-vc-ff4">
+            <objects>
+                <viewController id="M4Y-Lb-cyx" customClass="TodayViewController" customModule="BTC_Widget" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ft6-oW-KC0"/>
+                        <viewControllerLayoutGuide type="bottom" id="FKl-LY-JtV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" simulatedAppContext="notificationCenter" id="S3S-Oj-5AN">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="150"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$592.12" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZnQ-Ff-OhS">
+                                <rect key="frame" x="20" y="10" width="62" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.1764705882" green="0.42352941179999998" blue="0.76078431369999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1qb-J1-q3P">
+                                <rect key="frame" x="276" y="0.0" width="44" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="MBB-ir-Y5k"/>
+                                    <constraint firstAttribute="width" constant="44" id="gSc-fY-qw2"/>
+                                </constraints>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="5"/>
+                                <state key="normal" image="caret-notification-center">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="toggleLineChart:" destination="M4Y-Lb-cyx" eventType="touchUpInside" id="1Ai-jq-l4O"/>
+                                </connections>
+                            </button>
+                            <view userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gbr-f3-SOA" userLabel="Line Chart View" customClass="JBLineChartView">
+                                <rect key="frame" x="0.0" y="52" width="320" height="98"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="98" id="Wz7-mk-8Kp"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+1.23" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r0R-4R-9SZ">
+                                <rect key="frame" x="224" y="10" width="44" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.52156862749999999" green="0.74901960779999999" blue="0.1450980392" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="1qb-J1-q3P" secondAttribute="trailing" id="2vw-Se-VvP"/>
+                            <constraint firstItem="FKl-LY-JtV" firstAttribute="top" secondItem="Gbr-f3-SOA" secondAttribute="bottom" id="B4y-fU-EzB"/>
+                            <constraint firstItem="1qb-J1-q3P" firstAttribute="leading" secondItem="r0R-4R-9SZ" secondAttribute="trailing" constant="8" id="Nbx-JP-kUT"/>
+                            <constraint firstItem="r0R-4R-9SZ" firstAttribute="top" secondItem="Ft6-oW-KC0" secondAttribute="bottom" constant="10" id="X9h-pn-hME"/>
+                            <constraint firstItem="ZnQ-Ff-OhS" firstAttribute="leading" secondItem="S3S-Oj-5AN" secondAttribute="leading" constant="20" id="YmD-Kg-21s"/>
+                            <constraint firstItem="ZnQ-Ff-OhS" firstAttribute="top" secondItem="Ft6-oW-KC0" secondAttribute="bottom" constant="10" id="af7-Wt-q8L"/>
+                            <constraint firstAttribute="trailing" secondItem="Gbr-f3-SOA" secondAttribute="trailing" id="d3n-KH-yB3"/>
+                            <constraint firstItem="Gbr-f3-SOA" firstAttribute="top" secondItem="1qb-J1-q3P" secondAttribute="bottom" priority="250" constant="8" id="hOt-Hy-Abu"/>
+                            <constraint firstItem="Gbr-f3-SOA" firstAttribute="leading" secondItem="S3S-Oj-5AN" secondAttribute="leading" id="jYc-6I-fCU"/>
+                            <constraint firstItem="1qb-J1-q3P" firstAttribute="top" secondItem="Ft6-oW-KC0" secondAttribute="bottom" id="pda-ei-y62"/>
+                        </constraints>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="150"/>
+                    <connections>
+                        <outlet property="lineChartHeightConstraint" destination="Wz7-mk-8Kp" id="kkX-Pt-5QS"/>
+                        <outlet property="lineChartView" destination="Gbr-f3-SOA" id="166-El-5kQ"/>
+                        <outlet property="priceChangeLabel" destination="r0R-4R-9SZ" id="XWp-NX-lpC"/>
+                        <outlet property="priceLabel" destination="ZnQ-Ff-OhS" id="CYs-nl-Wii"/>
+                        <outlet property="toggleLineChartButton" destination="1qb-J1-q3P" id="vho-BY-tZ3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vXp-U4-Rya" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="516" y="285"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="caret-notification-center" width="13" height="9"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4">
+            <size key="portraitSize" width="320" height="568"/>
+            <size key="landscapeSize" width="568" height="320"/>
+        </simulatedScreenMetrics>
+    </simulatedMetricsContainer>
+</document>

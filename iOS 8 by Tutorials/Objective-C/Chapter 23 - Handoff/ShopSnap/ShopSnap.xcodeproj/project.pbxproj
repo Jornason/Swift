@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		61D3DCBD1961E4C80052DAA3 /* RWTSplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61D3DCBA1961E4C80052DAA3 /* RWTSplitViewController.m */; };
+		61D3DCBE1961E4C80052DAA3 /* RWTTraitOverrideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61D3DCBC1961E4C80052DAA3 /* RWTTraitOverrideViewController.m */; };
+		6D0AB4171952683300B9777E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D0AB4161952683300B9777E /* main.m */; };
+		6D0AB41A1952683300B9777E /* RWTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D0AB4191952683300B9777E /* RWTAppDelegate.m */; };
+		6D0AB41C1952683300B9777E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D0AB41B1952683300B9777E /* Images.xcassets */; };
+		6D0AB432195269CF00B9777E /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D0AB431195269CF00B9777E /* Storyboard.storyboard */; };
+		6D0AB43819526BE700B9777E /* RWTListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D0AB43719526BE700B9777E /* RWTListViewController.m */; };
+		6D0AB43E195270C200B9777E /* RWTDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D0AB43D195270C200B9777E /* RWTDetailViewController.m */; };
+		6D0AB44119528DA900B9777E /* RWTPersistentStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D0AB44019528DA900B9777E /* RWTPersistentStore.m */; };
+		6D0AB4431952917800B9777E /* RWTPersistentStoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D0AB4421952917800B9777E /* RWTPersistentStoreTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6D0AB4221952683300B9777E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D0AB4091952683300B9777E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D0AB4101952683300B9777E;
+			remoteInfo = ShopSnap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5B11C80919625A9D00FA78F9 /* RWTConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWTConstants.h; sourceTree = "<group>"; };
+		61D3DCB91961E4C80052DAA3 /* RWTSplitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWTSplitViewController.h; sourceTree = "<group>"; };
+		61D3DCBA1961E4C80052DAA3 /* RWTSplitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWTSplitViewController.m; sourceTree = "<group>"; };
+		61D3DCBB1961E4C80052DAA3 /* RWTTraitOverrideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWTTraitOverrideViewController.h; sourceTree = "<group>"; };
+		61D3DCBC1961E4C80052DAA3 /* RWTTraitOverrideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWTTraitOverrideViewController.m; sourceTree = "<group>"; };
+		6D0AB4111952683300B9777E /* ShopSnap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShopSnap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D0AB4151952683300B9777E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D0AB4161952683300B9777E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6D0AB4181952683300B9777E /* RWTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWTAppDelegate.h; sourceTree = "<group>"; };
+		6D0AB4191952683300B9777E /* RWTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RWTAppDelegate.m; sourceTree = "<group>"; };
+		6D0AB41B1952683300B9777E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6D0AB4211952683300B9777E /* ShopSnapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShopSnapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D0AB4261952683300B9777E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D0AB431195269CF00B9777E /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		6D0AB43619526BE700B9777E /* RWTListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWTListViewController.h; sourceTree = "<group>"; };
+		6D0AB43719526BE700B9777E /* RWTListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWTListViewController.m; sourceTree = "<group>"; };
+		6D0AB43C195270C200B9777E /* RWTDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWTDetailViewController.h; sourceTree = "<group>"; };
+		6D0AB43D195270C200B9777E /* RWTDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWTDetailViewController.m; sourceTree = "<group>"; };
+		6D0AB43F19528DA900B9777E /* RWTPersistentStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWTPersistentStore.h; sourceTree = "<group>"; };
+		6D0AB44019528DA900B9777E /* RWTPersistentStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWTPersistentStore.m; sourceTree = "<group>"; };
+		6D0AB4421952917800B9777E /* RWTPersistentStoreTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWTPersistentStoreTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D0AB40E1952683300B9777E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D0AB41E1952683300B9777E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D0AB4081952683300B9777E = {
+			isa = PBXGroup;
+			children = (
+				6D0AB4131952683300B9777E /* ShopSnap */,
+				6D0AB4241952683300B9777E /* ShopSnapTests */,
+				6D0AB4121952683300B9777E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6D0AB4121952683300B9777E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D0AB4111952683300B9777E /* ShopSnap.app */,
+				6D0AB4211952683300B9777E /* ShopSnapTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D0AB4131952683300B9777E /* ShopSnap */ = {
+			isa = PBXGroup;
+			children = (
+				6D0AB431195269CF00B9777E /* Storyboard.storyboard */,
+				5B11C80919625A9D00FA78F9 /* RWTConstants.h */,
+				6D0AB4181952683300B9777E /* RWTAppDelegate.h */,
+				6D0AB4191952683300B9777E /* RWTAppDelegate.m */,
+				61D3DCBB1961E4C80052DAA3 /* RWTTraitOverrideViewController.h */,
+				61D3DCBC1961E4C80052DAA3 /* RWTTraitOverrideViewController.m */,
+				61D3DCB91961E4C80052DAA3 /* RWTSplitViewController.h */,
+				61D3DCBA1961E4C80052DAA3 /* RWTSplitViewController.m */,
+				6D0AB43619526BE700B9777E /* RWTListViewController.h */,
+				6D0AB43719526BE700B9777E /* RWTListViewController.m */,
+				6D0AB43C195270C200B9777E /* RWTDetailViewController.h */,
+				6D0AB43D195270C200B9777E /* RWTDetailViewController.m */,
+				6D0AB43F19528DA900B9777E /* RWTPersistentStore.h */,
+				6D0AB44019528DA900B9777E /* RWTPersistentStore.m */,
+				6D0AB41B1952683300B9777E /* Images.xcassets */,
+				6D0AB4141952683300B9777E /* Supporting Files */,
+			);
+			path = ShopSnap;
+			sourceTree = "<group>";
+		};
+		6D0AB4141952683300B9777E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6D0AB4151952683300B9777E /* Info.plist */,
+				6D0AB4161952683300B9777E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6D0AB4241952683300B9777E /* ShopSnapTests */ = {
+			isa = PBXGroup;
+			children = (
+				6D0AB4421952917800B9777E /* RWTPersistentStoreTests.m */,
+				6D0AB4251952683300B9777E /* Supporting Files */,
+			);
+			path = ShopSnapTests;
+			sourceTree = "<group>";
+		};
+		6D0AB4251952683300B9777E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6D0AB4261952683300B9777E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6D0AB4101952683300B9777E /* ShopSnap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D0AB42B1952683300B9777E /* Build configuration list for PBXNativeTarget "ShopSnap" */;
+			buildPhases = (
+				6D0AB40D1952683300B9777E /* Sources */,
+				6D0AB40E1952683300B9777E /* Frameworks */,
+				6D0AB40F1952683300B9777E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShopSnap;
+			productName = ShopSnap;
+			productReference = 6D0AB4111952683300B9777E /* ShopSnap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6D0AB4201952683300B9777E /* ShopSnapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D0AB42E1952683300B9777E /* Build configuration list for PBXNativeTarget "ShopSnapTests" */;
+			buildPhases = (
+				6D0AB41D1952683300B9777E /* Sources */,
+				6D0AB41E1952683300B9777E /* Frameworks */,
+				6D0AB41F1952683300B9777E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D0AB4231952683300B9777E /* PBXTargetDependency */,
+			);
+			name = ShopSnapTests;
+			productName = ShopSnapTests;
+			productReference = 6D0AB4211952683300B9777E /* ShopSnapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D0AB4091952683300B9777E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RWT;
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Razeware LLC";
+				TargetAttributes = {
+					6D0AB4101952683300B9777E = {
+						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = 2X468FT7VV;
+						SystemCapabilities = {
+							com.apple.iCloud = {
+								enabled = 0;
+							};
+						};
+					};
+					6D0AB4201952683300B9777E = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 6D0AB4101952683300B9777E;
+					};
+				};
+			};
+			buildConfigurationList = 6D0AB40C1952683300B9777E /* Build configuration list for PBXProject "ShopSnap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6D0AB4081952683300B9777E;
+			productRefGroup = 6D0AB4121952683300B9777E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D0AB4101952683300B9777E /* ShopSnap */,
+				6D0AB4201952683300B9777E /* ShopSnapTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D0AB40F1952683300B9777E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D0AB41C1952683300B9777E /* Images.xcassets in Resources */,
+				6D0AB432195269CF00B9777E /* Storyboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D0AB41F1952683300B9777E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D0AB40D1952683300B9777E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D0AB43819526BE700B9777E /* RWTListViewController.m in Sources */,
+				61D3DCBE1961E4C80052DAA3 /* RWTTraitOverrideViewController.m in Sources */,
+				61D3DCBD1961E4C80052DAA3 /* RWTSplitViewController.m in Sources */,
+				6D0AB41A1952683300B9777E /* RWTAppDelegate.m in Sources */,
+				6D0AB4171952683300B9777E /* main.m in Sources */,
+				6D0AB43E195270C200B9777E /* RWTDetailViewController.m in Sources */,
+				6D0AB44119528DA900B9777E /* RWTPersistentStore.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D0AB41D1952683300B9777E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D0AB4431952917800B9777E /* RWTPersistentStoreTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6D0AB4231952683300B9777E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D0AB4101952683300B9777E /* ShopSnap */;
+			targetProxy = 6D0AB4221952683300B9777E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6D0AB4291952683300B9777E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6D0AB42A1952683300B9777E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6D0AB42C1952683300B9777E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = ShopSnap/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6D0AB42D1952683300B9777E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = ShopSnap/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6D0AB42F1952683300B9777E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ShopSnap.app/ShopSnap";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ShopSnapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		6D0AB4301952683300B9777E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ShopSnap.app/ShopSnap";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ShopSnapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D0AB40C1952683300B9777E /* Build configuration list for PBXProject "ShopSnap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D0AB4291952683300B9777E /* Debug */,
+				6D0AB42A1952683300B9777E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D0AB42B1952683300B9777E /* Build configuration list for PBXNativeTarget "ShopSnap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D0AB42C1952683300B9777E /* Debug */,
+				6D0AB42D1952683300B9777E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D0AB42E1952683300B9777E /* Build configuration list for PBXNativeTarget "ShopSnapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D0AB42F1952683300B9777E /* Debug */,
+				6D0AB4301952683300B9777E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6D0AB4091952683300B9777E /* Project object */;
+}

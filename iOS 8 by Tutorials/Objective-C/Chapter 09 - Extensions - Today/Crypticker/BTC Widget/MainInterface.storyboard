@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="14A361c" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="M4Y-Lb-cyx">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+    </dependencies>
+    <scenes>
+        <!--Today View Controller-->
+        <scene sceneID="cwh-vc-ff4">
+            <objects>
+                <viewController id="M4Y-Lb-cyx" customClass="TodayViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ft6-oW-KC0"/>
+                        <viewControllerLayoutGuide type="bottom" id="FKl-LY-JtV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" simulatedAppContext="notificationCenter" id="SZx-kK-tCo">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="150"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$592.12" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B0S-Nm-3de">
+                                <rect key="frame" x="20" y="10" width="62" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.1764705882" green="0.42352941179999998" blue="0.76078431369999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hRA-Aq-HkS">
+                                <rect key="frame" x="276" y="0.0" width="44" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="ONd-0u-6nT"/>
+                                    <constraint firstAttribute="width" constant="44" id="oZh-dP-7AW"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="5"/>
+                                <state key="normal" image="caret-notification-center">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="toggleGraph:" destination="M4Y-Lb-cyx" eventType="touchUpInside" id="TWN-47-WNH"/>
+                                </connections>
+                            </button>
+                            <view userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="d67-CK-abd" userLabel="Line Chart View" customClass="JBLineChartView">
+                                <rect key="frame" x="0.0" y="52" width="320" height="98"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="98" id="a1Q-zf-T9E"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+1.23" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FoE-S2-TFr">
+                                <rect key="frame" x="224" y="10" width="44" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.52156862749999999" green="0.74901960779999999" blue="0.1450980392" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="d67-CK-abd" secondAttribute="trailing" id="8bx-Ju-0LW"/>
+                            <constraint firstItem="d67-CK-abd" firstAttribute="leading" secondItem="SZx-kK-tCo" secondAttribute="leading" id="BwJ-5Z-kQX"/>
+                            <constraint firstItem="hRA-Aq-HkS" firstAttribute="leading" secondItem="FoE-S2-TFr" secondAttribute="trailing" constant="8" id="WzF-ME-Oqi"/>
+                            <constraint firstItem="FKl-LY-JtV" firstAttribute="top" secondItem="d67-CK-abd" secondAttribute="bottom" id="ZM0-cS-72O"/>
+                            <constraint firstItem="FoE-S2-TFr" firstAttribute="top" secondItem="Ft6-oW-KC0" secondAttribute="bottom" constant="10" id="aTj-5B-IvE"/>
+                            <constraint firstItem="d67-CK-abd" firstAttribute="top" secondItem="hRA-Aq-HkS" secondAttribute="bottom" priority="250" constant="8" id="hvf-mx-mnN"/>
+                            <constraint firstItem="B0S-Nm-3de" firstAttribute="leading" secondItem="SZx-kK-tCo" secondAttribute="leading" constant="20" id="jre-td-G6W"/>
+                            <constraint firstItem="hRA-Aq-HkS" firstAttribute="top" secondItem="Ft6-oW-KC0" secondAttribute="bottom" id="mcb-de-CBg"/>
+                            <constraint firstAttribute="trailing" secondItem="hRA-Aq-HkS" secondAttribute="trailing" id="oND-dy-zbS"/>
+                            <constraint firstItem="B0S-Nm-3de" firstAttribute="top" secondItem="Ft6-oW-KC0" secondAttribute="bottom" constant="10" id="wA1-Mo-5bv"/>
+                        </constraints>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="150"/>
+                    <connections>
+                        <outlet property="lineChartHeightConstraint" destination="a1Q-zf-T9E" id="VzH-VA-hZA"/>
+                        <outlet property="priceChangeLabel" destination="FoE-S2-TFr" id="Mck-Y2-hrO"/>
+                        <outlet property="priceLabel" destination="B0S-Nm-3de" id="9JZ-2u-tOs"/>
+                        <outlet property="priceLineChartView" destination="d67-CK-abd" id="iiz-E3-X43"/>
+                        <outlet property="toggleGraphButton" destination="hRA-Aq-HkS" id="cTq-TH-7hw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vXp-U4-Rya" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="516" y="285"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="caret-notification-center" width="14" height="9"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ShopSnap/ListViewController.swift"
+            timestampString = "429073604.588595"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "153"
+            endingLineNumber = "153"
+            landmarkName = "detailViewController(_:didFinishWithDocument:)"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ShopSnap.ListViewController.detailViewController (ShopSnap.ListViewController)(ShopSnap.DetailViewController, didFinishWithDocument : Swift.Optional&lt;ShopSnap.Document&gt;) -&gt; ()"
+                  moduleName = "ShopSnap"
+                  urlString = "file:///Users/Canopus/Documents/Developer/Ray%20Wenderlich/iOS%208%20By%20Tutorials/Beginning%20&amp;%20Intermediate%20Hand%20Off/shopsnap-swift/ShopSnap/ListViewController.swift"
+                  timestampString = "429054788.875739"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "154"
+                  endingLineNumber = "154"
+                  offsetFromSymbolStart = "136">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ShopSnap.ListViewController.detailViewController (ShopSnap.ListViewController)(ShopSnap.DetailViewController, didFinishWithDocument : Swift.Optional&lt;ShopSnap.Document&gt;) -&gt; ()"
+                  moduleName = "ShopSnap"
+                  urlString = "file:///Users/Canopus/Documents/Developer/Ray%20Wenderlich/iOS%208%20By%20Tutorials/Beginning%20&amp;%20Intermediate%20Hand%20Off/shopsnap-swift/ShopSnap/ListViewController.swift"
+                  timestampString = "429054788.876028"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "154"
+                  endingLineNumber = "154"
+                  offsetFromSymbolStart = "188">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2230CD401969687B00913A9C /* RWTraitOverrideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2266A6EF195CBDBD00528CEA /* RWTraitOverrideViewController.m */; };
+		2230CD411969687B00913A9C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22521D8B195C193900298FD0 /* main.m */; };
+		2230CD421969687B00913A9C /* RWTSplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2266A6F5195CC84E00528CEA /* RWTSplitViewController.m */; };
+		2230CD5219696A3A00913A9C /* UIViewController+Show.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F9DC51195F34120012B3D1 /* UIViewController+Show.m */; };
+		2230CD5319696A3A00913A9C /* Colours.m in Sources */ = {isa = PBXBuildFile; fileRef = 22521DC7195C479A00298FD0 /* Colours.m */; };
+		2230CD5419696A3A00913A9C /* RWTColorPalette.m in Sources */ = {isa = PBXBuildFile; fileRef = 22521DBC195C215600298FD0 /* RWTColorPalette.m */; };
+		2230CD5519696A3A00913A9C /* RWTColorPaletteCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 22521DC0195C2CCC00298FD0 /* RWTColorPaletteCollection.m */; };
+		2230CD5619696A3A00913A9C /* RWTColorPaletteProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 22521DC3195C45CB00298FD0 /* RWTColorPaletteProvider.m */; };
+		2230CD5719696A3A00913A9C /* RWTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22521D8F195C193900298FD0 /* RWTAppDelegate.m */; };
+		2230CD5819696A3A00913A9C /* RWTMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22521D98195C193900298FD0 /* RWTMasterViewController.m */; };
+		2230CD5919696A3A00913A9C /* RWTDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22521D9B195C193900298FD0 /* RWTDetailViewController.m */; };
+		2230CD5A19696A3A00913A9C /* RWTNoPaletteSelectedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F9DC54196019220012B3D1 /* RWTNoPaletteSelectedViewController.m */; };
+		22521D80195C193900298FD0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22521D7F195C193900298FD0 /* Foundation.framework */; };
+		22521D82195C193900298FD0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22521D81195C193900298FD0 /* CoreGraphics.framework */; };
+		22521D84195C193900298FD0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22521D83195C193900298FD0 /* UIKit.framework */; };
+		22521D8A195C193900298FD0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 22521D88195C193900298FD0 /* InfoPlist.strings */; };
+		22521D96195C193900298FD0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22521D94195C193900298FD0 /* Main.storyboard */; };
+		22521D9E195C193900298FD0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22521D9D195C193900298FD0 /* Images.xcassets */; };
+		22521DA5195C193900298FD0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22521DA4195C193900298FD0 /* XCTest.framework */; };
+		22521DA6195C193900298FD0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22521D7F195C193900298FD0 /* Foundation.framework */; };
+		22521DA7195C193900298FD0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22521D83195C193900298FD0 /* UIKit.framework */; };
+		22521DAF195C193900298FD0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 22521DAD195C193900298FD0 /* InfoPlist.strings */; };
+		22521DB1195C193900298FD0 /* KhromaPalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22521DB0195C193900298FD0 /* KhromaPalTests.m */; };
+		22521DCA195C483800298FD0 /* DefaultColourSwatchCollection.plist in Resources */ = {isa = PBXBuildFile; fileRef = 22521DC9195C483800298FD0 /* DefaultColourSwatchCollection.plist */; };
+		22922046196B357F00DADCDC /* RWTNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22922045196B357F00DADCDC /* RWTNavigationController.m */; };
+		22D21E3919C8A85E0090A99A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22D21E3819C8A85E0090A99A /* LaunchScreen.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22521DA8195C193900298FD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22521D74195C193800298FD0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22521D7B195C193800298FD0;
+			remoteInfo = KhromaPal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		22521D7C195C193900298FD0 /* KhromaPal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KhromaPal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22521D7F195C193900298FD0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		22521D81195C193900298FD0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		22521D83195C193900298FD0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		22521D87195C193900298FD0 /* KhromaPal-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KhromaPal-Info.plist"; sourceTree = "<group>"; };
+		22521D89195C193900298FD0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		22521D8B195C193900298FD0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		22521D8D195C193900298FD0 /* KhromaPal-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KhromaPal-Prefix.pch"; sourceTree = "<group>"; };
+		22521D8E195C193900298FD0 /* RWTAppDelegate.h */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.c.h; path = RWTAppDelegate.h; sourceTree = "<group>"; tabWidth = 2; };
+		22521D8F195C193900298FD0 /* RWTAppDelegate.m */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.c.objc; path = RWTAppDelegate.m; sourceTree = "<group>"; tabWidth = 2; };
+		22521D95195C193900298FD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		22521D97195C193900298FD0 /* RWTMasterViewController.h */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.c.h; path = RWTMasterViewController.h; sourceTree = "<group>"; tabWidth = 2; };
+		22521D98195C193900298FD0 /* RWTMasterViewController.m */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.c.objc; path = RWTMasterViewController.m; sourceTree = "<group>"; tabWidth = 2; };
+		22521D9A195C193900298FD0 /* RWTDetailViewController.h */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.c.h; path = RWTDetailViewController.h; sourceTree = "<group>"; tabWidth = 2; };
+		22521D9B195C193900298FD0 /* RWTDetailViewController.m */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.c.objc; path = RWTDetailViewController.m; sourceTree = "<group>"; tabWidth = 2; };
+		22521D9D195C193900298FD0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		22521DA3195C193900298FD0 /* KhromaPalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KhromaPalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22521DA4195C193900298FD0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		22521DAC195C193900298FD0 /* KhromaPalTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KhromaPalTests-Info.plist"; sourceTree = "<group>"; };
+		22521DAE195C193900298FD0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		22521DB0195C193900298FD0 /* KhromaPalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KhromaPalTests.m; sourceTree = "<group>"; };
+		22521DBB195C215600298FD0 /* RWTColorPalette.h */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.c.h; path = RWTColorPalette.h; sourceTree = "<group>"; tabWidth = 2; };
+		22521DBC195C215600298FD0 /* RWTColorPalette.m */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.c.objc; path = RWTColorPalette.m; sourceTree = "<group>"; tabWidth = 2; };
+		22521DBE195C2BE200298FD0 /* RWTPaletteTreeNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWTPaletteTreeNode.h; sourceTree = "<group>"; };
+		22521DBF195C2CCC00298FD0 /* RWTColorPaletteCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.c.h; path = RWTColorPaletteCollection.h; sourceTree = "<group>"; tabWidth = 2; };
+		22521DC0195C2CCC00298FD0 /* RWTColorPaletteCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.c.objc; path = RWTColorPaletteCollection.m; sourceTree = "<group>"; tabWidth = 2; };
+		22521DC2195C45CB00298FD0 /* RWTColorPaletteProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.c.h; path = RWTColorPaletteProvider.h; sourceTree = "<group>"; tabWidth = 2; };
+		22521DC3195C45CB00298FD0 /* RWTColorPaletteProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.c.objc; path = RWTColorPaletteProvider.m; sourceTree = "<group>"; tabWidth = 2; };
+		22521DC6195C479A00298FD0 /* Colours.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Colours.h; sourceTree = "<group>"; };
+		22521DC7195C479A00298FD0 /* Colours.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Colours.m; sourceTree = "<group>"; };
+		22521DC9195C483800298FD0 /* DefaultColourSwatchCollection.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DefaultColourSwatchCollection.plist; sourceTree = "<group>"; };
+		2266A6EE195CBDBD00528CEA /* RWTraitOverrideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWTraitOverrideViewController.h; sourceTree = "<group>"; };
+		2266A6EF195CBDBD00528CEA /* RWTraitOverrideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWTraitOverrideViewController.m; sourceTree = "<group>"; };
+		2266A6F4195CC84E00528CEA /* RWTSplitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWTSplitViewController.h; sourceTree = "<group>"; };
+		2266A6F5195CC84E00528CEA /* RWTSplitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWTSplitViewController.m; sourceTree = "<group>"; };
+		22922043196B34C600DADCDC /* RWTPaletteContainer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWTPaletteContainer.h; sourceTree = "<group>"; };
+		22922044196B357F00DADCDC /* RWTNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWTNavigationController.h; sourceTree = "<group>"; };
+		22922045196B357F00DADCDC /* RWTNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWTNavigationController.m; sourceTree = "<group>"; };
+		22D21E3819C8A85E0090A99A /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		22F9DC50195F333F0012B3D1 /* UIViewController+Show.h */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Show.h"; sourceTree = "<group>"; tabWidth = 2; };
+		22F9DC51195F34120012B3D1 /* UIViewController+Show.m */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Show.m"; sourceTree = "<group>"; tabWidth = 2; };
+		22F9DC53196019220012B3D1 /* RWTNoPaletteSelectedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWTNoPaletteSelectedViewController.h; sourceTree = "<group>"; };
+		22F9DC54196019220012B3D1 /* RWTNoPaletteSelectedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWTNoPaletteSelectedViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22521D79195C193800298FD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22521D82195C193900298FD0 /* CoreGraphics.framework in Frameworks */,
+				22521D84195C193900298FD0 /* UIKit.framework in Frameworks */,
+				22521D80195C193900298FD0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22521DA0195C193900298FD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22521DA5195C193900298FD0 /* XCTest.framework in Frameworks */,
+				22521DA7195C193900298FD0 /* UIKit.framework in Frameworks */,
+				22521DA6195C193900298FD0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		220D1386195F067A00D3D5CE /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				22F9DC51195F34120012B3D1 /* UIViewController+Show.m */,
+				22F9DC50195F333F0012B3D1 /* UIViewController+Show.h */,
+				22922043196B34C600DADCDC /* RWTPaletteContainer.h */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		22521D73195C193800298FD0 = {
+			isa = PBXGroup;
+			children = (
+				22521D85195C193900298FD0 /* KhromaPal */,
+				22521DAA195C193900298FD0 /* KhromaPalTests */,
+				22521D7E195C193900298FD0 /* Frameworks */,
+				22521D7D195C193900298FD0 /* Products */,
+			);
+			indentWidth = 4;
+			sourceTree = "<group>";
+			tabWidth = 4;
+			usesTabs = 0;
+		};
+		22521D7D195C193900298FD0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22521D7C195C193900298FD0 /* KhromaPal.app */,
+				22521DA3195C193900298FD0 /* KhromaPalTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22521D7E195C193900298FD0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22521D7F195C193900298FD0 /* Foundation.framework */,
+				22521D81195C193900298FD0 /* CoreGraphics.framework */,
+				22521D83195C193900298FD0 /* UIKit.framework */,
+				22521DA4195C193900298FD0 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		22521D85195C193900298FD0 /* KhromaPal */ = {
+			isa = PBXGroup;
+			children = (
+				220D1386195F067A00D3D5CE /* Categories */,
+				22521DC5195C475B00298FD0 /* 3rdParty */,
+				22521DBA195C20A500298FD0 /* DataLayer */,
+				22521D8E195C193900298FD0 /* RWTAppDelegate.h */,
+				22521D8F195C193900298FD0 /* RWTAppDelegate.m */,
+				22521D94195C193900298FD0 /* Main.storyboard */,
+				22521D97195C193900298FD0 /* RWTMasterViewController.h */,
+				22521D98195C193900298FD0 /* RWTMasterViewController.m */,
+				22521D9A195C193900298FD0 /* RWTDetailViewController.h */,
+				22521D9B195C193900298FD0 /* RWTDetailViewController.m */,
+				2266A6EE195CBDBD00528CEA /* RWTraitOverrideViewController.h */,
+				2266A6EF195CBDBD00528CEA /* RWTraitOverrideViewController.m */,
+				22521D9D195C193900298FD0 /* Images.xcassets */,
+				22521D86195C193900298FD0 /* Supporting Files */,
+				2266A6F4195CC84E00528CEA /* RWTSplitViewController.h */,
+				2266A6F5195CC84E00528CEA /* RWTSplitViewController.m */,
+				22F9DC53196019220012B3D1 /* RWTNoPaletteSelectedViewController.h */,
+				22F9DC54196019220012B3D1 /* RWTNoPaletteSelectedViewController.m */,
+				22922044196B357F00DADCDC /* RWTNavigationController.h */,
+				22922045196B357F00DADCDC /* RWTNavigationController.m */,
+				22D21E3819C8A85E0090A99A /* LaunchScreen.xib */,
+			);
+			path = KhromaPal;
+			sourceTree = "<group>";
+		};
+		22521D86195C193900298FD0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				22521D87195C193900298FD0 /* KhromaPal-Info.plist */,
+				22521D88195C193900298FD0 /* InfoPlist.strings */,
+				22521D8B195C193900298FD0 /* main.m */,
+				22521D8D195C193900298FD0 /* KhromaPal-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		22521DAA195C193900298FD0 /* KhromaPalTests */ = {
+			isa = PBXGroup;
+			children = (
+				22521DB0195C193900298FD0 /* KhromaPalTests.m */,
+				22521DAB195C193900298FD0 /* Supporting Files */,
+			);
+			path = KhromaPalTests;
+			sourceTree = "<group>";
+		};
+		22521DAB195C193900298FD0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				22521DAC195C193900298FD0 /* KhromaPalTests-Info.plist */,
+				22521DAD195C193900298FD0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		22521DBA195C20A500298FD0 /* DataLayer */ = {
+			isa = PBXGroup;
+			children = (
+				22521DC9195C483800298FD0 /* DefaultColourSwatchCollection.plist */,
+				22521DBB195C215600298FD0 /* RWTColorPalette.h */,
+				22521DBC195C215600298FD0 /* RWTColorPalette.m */,
+				22521DBE195C2BE200298FD0 /* RWTPaletteTreeNode.h */,
+				22521DBF195C2CCC00298FD0 /* RWTColorPaletteCollection.h */,
+				22521DC0195C2CCC00298FD0 /* RWTColorPaletteCollection.m */,
+				22521DC2195C45CB00298FD0 /* RWTColorPaletteProvider.h */,
+				22521DC3195C45CB00298FD0 /* RWTColorPaletteProvider.m */,
+			);
+			path = DataLayer;
+			sourceTree = "<group>";
+		};
+		22521DC5195C475B00298FD0 /* 3rdParty */ = {
+			isa = PBXGroup;
+			children = (
+				22521DC6195C479A00298FD0 /* Colours.h */,
+				22521DC7195C479A00298FD0 /* Colours.m */,
+			);
+			path = 3rdParty;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22521D7B195C193800298FD0 /* KhromaPal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22521DB4195C193900298FD0 /* Build configuration list for PBXNativeTarget "KhromaPal" */;
+			buildPhases = (
+				22521D78195C193800298FD0 /* Sources */,
+				22521D79195C193800298FD0 /* Frameworks */,
+				22521D7A195C193800298FD0 /* Resources */,
+				97B93BBC3F02440B8F11CA6D /* Warn for TODO and FIXME comments */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KhromaPal;
+			productName = KhromaPal;
+			productReference = 22521D7C195C193900298FD0 /* KhromaPal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		22521DA2195C193900298FD0 /* KhromaPalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22521DB7195C193900298FD0 /* Build configuration list for PBXNativeTarget "KhromaPalTests" */;
+			buildPhases = (
+				22521D9F195C193900298FD0 /* Sources */,
+				22521DA0195C193900298FD0 /* Frameworks */,
+				22521DA1195C193900298FD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22521DA9195C193900298FD0 /* PBXTargetDependency */,
+			);
+			name = KhromaPalTests;
+			productName = KhromaPalTests;
+			productReference = 22521DA3195C193900298FD0 /* KhromaPalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22521D74195C193800298FD0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RW;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = RayWenderlich;
+				TargetAttributes = {
+					22521DA2195C193900298FD0 = {
+						TestTargetID = 22521D7B195C193800298FD0;
+					};
+				};
+			};
+			buildConfigurationList = 22521D77195C193800298FD0 /* Build configuration list for PBXProject "KhromaPal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22521D73195C193800298FD0;
+			productRefGroup = 22521D7D195C193900298FD0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22521D7B195C193800298FD0 /* KhromaPal */,
+				22521DA2195C193900298FD0 /* KhromaPalTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22521D7A195C193800298FD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22D21E3919C8A85E0090A99A /* LaunchScreen.xib in Resources */,
+				22521D96195C193900298FD0 /* Main.storyboard in Resources */,
+				22521DCA195C483800298FD0 /* DefaultColourSwatchCollection.plist in Resources */,
+				22521D9E195C193900298FD0 /* Images.xcassets in Resources */,
+				22521D8A195C193900298FD0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22521DA1195C193900298FD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22521DAF195C193900298FD0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		97B93BBC3F02440B8F11CA6D /* Warn for TODO and FIXME comments */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Warn for TODO and FIXME comments";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "KEYWORDS=\"TODO:|FIXME:|\\?\\?\\?:|\\!\\!\\!:\"\nFILE_EXTENSIONS=\"h|m|mm|c|cpp\"\nfind -E \"${SRCROOT}\" -ipath \"${SRCROOT}/pods\" -prune -o \\( -regex \".*\\.($FILE_EXTENSIONS)$\" \\) -print0 | xargs -0 egrep --with-filename --line-number --only-matching \"($KEYWORDS).*\\$\" | perl -p -e \"s/($KEYWORDS)/ warning: \\$1/\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22521D78195C193800298FD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2230CD5819696A3A00913A9C /* RWTMasterViewController.m in Sources */,
+				2230CD401969687B00913A9C /* RWTraitOverrideViewController.m in Sources */,
+				2230CD5319696A3A00913A9C /* Colours.m in Sources */,
+				2230CD5919696A3A00913A9C /* RWTDetailViewController.m in Sources */,
+				2230CD411969687B00913A9C /* main.m in Sources */,
+				22922046196B357F00DADCDC /* RWTNavigationController.m in Sources */,
+				2230CD5219696A3A00913A9C /* UIViewController+Show.m in Sources */,
+				2230CD5A19696A3A00913A9C /* RWTNoPaletteSelectedViewController.m in Sources */,
+				2230CD421969687B00913A9C /* RWTSplitViewController.m in Sources */,
+				2230CD5519696A3A00913A9C /* RWTColorPaletteCollection.m in Sources */,
+				2230CD5719696A3A00913A9C /* RWTAppDelegate.m in Sources */,
+				2230CD5619696A3A00913A9C /* RWTColorPaletteProvider.m in Sources */,
+				2230CD5419696A3A00913A9C /* RWTColorPalette.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22521D9F195C193900298FD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22521DB1195C193900298FD0 /* KhromaPalTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22521DA9195C193900298FD0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22521D7B195C193800298FD0 /* KhromaPal */;
+			targetProxy = 22521DA8195C193900298FD0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		22521D88195C193900298FD0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22521D89195C193900298FD0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		22521D94195C193900298FD0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22521D95195C193900298FD0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		22521DAD195C193900298FD0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22521DAE195C193900298FD0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22521DB2195C193900298FD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		22521DB3195C193900298FD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22521DB5195C193900298FD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KhromaPal/KhromaPal-Prefix.pch";
+				INFOPLIST_FILE = "KhromaPal/KhromaPal-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		22521DB6195C193900298FD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KhromaPal/KhromaPal-Prefix.pch";
+				INFOPLIST_FILE = "KhromaPal/KhromaPal-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		22521DB8195C193900298FD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KhromaPal.app/KhromaPal";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KhromaPal/KhromaPal-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "KhromaPalTests/KhromaPalTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		22521DB9195C193900298FD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KhromaPal.app/KhromaPal";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KhromaPal/KhromaPal-Prefix.pch";
+				INFOPLIST_FILE = "KhromaPalTests/KhromaPalTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22521D77195C193800298FD0 /* Build configuration list for PBXProject "KhromaPal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22521DB2195C193900298FD0 /* Debug */,
+				22521DB3195C193900298FD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22521DB4195C193900298FD0 /* Build configuration list for PBXNativeTarget "KhromaPal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22521DB5195C193900298FD0 /* Debug */,
+				22521DB6195C193900298FD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22521DB7195C193900298FD0 /* Build configuration list for PBXNativeTarget "KhromaPalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22521DB8195C193900298FD0 /* Debug */,
+				22521DB9195C193900298FD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22521D74195C193800298FD0 /* Project object */;
+}

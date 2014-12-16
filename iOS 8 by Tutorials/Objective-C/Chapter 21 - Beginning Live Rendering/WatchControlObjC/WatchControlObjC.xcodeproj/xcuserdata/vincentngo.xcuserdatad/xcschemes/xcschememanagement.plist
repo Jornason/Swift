@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>WatchControlObjC.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>WatchKit.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>10D320E71995A1FE002995D4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>10D320FD1995A1FE002995D4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>10D3211D1995B0F6002995D4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>10D321271995B0F6002995D4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

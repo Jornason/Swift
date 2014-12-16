@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>18C5B0CB-C21C-4BE2-817A-E577CC9EA081</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ShopSnap</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>A2E9BAE35B81462BEF7B0B2FF7B15FFBEEFE1CE7</key>
+		<string>https://bitbucket.org/moayes/shopsnap-swift.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ShopSnap.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>A2E9BAE35B81462BEF7B0B2FF7B15FFBEEFE1CE7</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://bitbucket.org/moayes/shopsnap-swift.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>A2E9BAE35B81462BEF7B0B2FF7B15FFBEEFE1CE7</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>A2E9BAE35B81462BEF7B0B2FF7B15FFBEEFE1CE7</string>
+			<key>IDESourceControlWCCName</key>
+			<string>shopsnap-swift</string>
+		</dict>
+	</array>
+</dict>
+</plist>

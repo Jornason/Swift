@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		101A6602199FDFAB00D4E8FF /* BorderedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 101A6600199FDFAB00D4E8FF /* BorderedButton.m */; };
+		102D320819A56003005E17A9 /* test1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 102D320519A56003005E17A9 /* test1.jpg */; };
+		102D320919A56003005E17A9 /* test2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 102D320619A56003005E17A9 /* test2.jpg */; };
+		102D320A19A56003005E17A9 /* test3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 102D320719A56003005E17A9 /* test3.jpg */; };
+		1086ADBD1995C84700C74E48 /* WatchCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1086ADBC1995C84700C74E48 /* WatchCollectionViewController.m */; };
+		1086ADC01995C9AC00C74E48 /* WatchCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1086ADBF1995C9AB00C74E48 /* WatchCollectionViewCell.m */; };
+		10BCFE3A19C5776E006D4D01 /* WatchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 10BCFE3919C5776E006D4D01 /* WatchView.m */; };
+		10D0FDE71968A0F7007D7239 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D0FDE61968A0F7007D7239 /* main.m */; };
+		10D0FDEA1968A0F7007D7239 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D0FDE91968A0F7007D7239 /* AppDelegate.m */; };
+		10D0FDF01968A0F7007D7239 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10D0FDEE1968A0F7007D7239 /* Main.storyboard */; };
+		10D0FDF21968A0F7007D7239 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10D0FDF11968A0F7007D7239 /* Images.xcassets */; };
+		10D0FDFE1968A0F7007D7239 /* WatchControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D0FDFD1968A0F7007D7239 /* WatchControlTests.m */; };
+		10D0FE431968BF7A007D7239 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D0FE421968BF7A007D7239 /* SettingsViewController.m */; };
+		10D0FE461968C0FD007D7239 /* TimezoneTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D0FE451968C0FD007D7239 /* TimezoneTableViewCell.m */; };
+		10D0FE491968DDAB007D7239 /* NKOColorPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D0FE481968DDAB007D7239 /* NKOColorPickerView.m */; };
+		10D0FE4C1968DF05007D7239 /* ColorPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D0FE4B1968DF05007D7239 /* ColorPickerViewController.m */; };
+		10D0FE511968DF8A007D7239 /* nko_brightness_guide.png in Resources */ = {isa = PBXBuildFile; fileRef = 10D0FE4E1968DF8A007D7239 /* nko_brightness_guide.png */; };
+		10D0FE521968DF8A007D7239 /* nko_brightness_guide@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 10D0FE4F1968DF8A007D7239 /* nko_brightness_guide@2x.png */; };
+		10D0FE531968DF8A007D7239 /* nko_colormap.png in Resources */ = {isa = PBXBuildFile; fileRef = 10D0FE501968DF8A007D7239 /* nko_colormap.png */; };
+		10E512D01974D8BC00A0F8CC /* TimeZoneTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E512CF1974D8BC00A0F8CC /* TimeZoneTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		10D0FDF81968A0F7007D7239 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10D0FDD91968A0F7007D7239 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10D0FDE01968A0F7007D7239;
+			remoteInfo = WatchControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		10D0FE2E1968A24A007D7239 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		101A65FF199FDFAB00D4E8FF /* BorderedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BorderedButton.h; sourceTree = "<group>"; };
+		101A6600199FDFAB00D4E8FF /* BorderedButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BorderedButton.m; sourceTree = "<group>"; };
+		102D320519A56003005E17A9 /* test1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test1.jpg; sourceTree = "<group>"; };
+		102D320619A56003005E17A9 /* test2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test2.jpg; sourceTree = "<group>"; };
+		102D320719A56003005E17A9 /* test3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test3.jpg; sourceTree = "<group>"; };
+		1086ADBB1995C84600C74E48 /* WatchCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WatchCollectionViewController.h; sourceTree = "<group>"; };
+		1086ADBC1995C84700C74E48 /* WatchCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WatchCollectionViewController.m; sourceTree = "<group>"; };
+		1086ADBE1995C9AB00C74E48 /* WatchCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WatchCollectionViewCell.h; sourceTree = "<group>"; };
+		1086ADBF1995C9AB00C74E48 /* WatchCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WatchCollectionViewCell.m; sourceTree = "<group>"; };
+		10BCFE3819C5776E006D4D01 /* WatchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WatchView.h; sourceTree = "<group>"; };
+		10BCFE3919C5776E006D4D01 /* WatchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WatchView.m; sourceTree = "<group>"; };
+		10D0FDE11968A0F7007D7239 /* WatchControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		10D0FDE51968A0F7007D7239 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10D0FDE61968A0F7007D7239 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		10D0FDE81968A0F7007D7239 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		10D0FDE91968A0F7007D7239 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		10D0FDEF1968A0F7007D7239 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		10D0FDF11968A0F7007D7239 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		10D0FDF71968A0F7007D7239 /* WatchControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WatchControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		10D0FDFC1968A0F7007D7239 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10D0FDFD1968A0F7007D7239 /* WatchControlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WatchControlTests.m; sourceTree = "<group>"; };
+		10D0FE411968BF7A007D7239 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		10D0FE421968BF7A007D7239 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		10D0FE441968C0FD007D7239 /* TimezoneTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimezoneTableViewCell.h; sourceTree = "<group>"; };
+		10D0FE451968C0FD007D7239 /* TimezoneTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimezoneTableViewCell.m; sourceTree = "<group>"; };
+		10D0FE471968DDAB007D7239 /* NKOColorPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKOColorPickerView.h; sourceTree = "<group>"; };
+		10D0FE481968DDAB007D7239 /* NKOColorPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKOColorPickerView.m; sourceTree = "<group>"; };
+		10D0FE4A1968DF05007D7239 /* ColorPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorPickerViewController.h; sourceTree = "<group>"; };
+		10D0FE4B1968DF05007D7239 /* ColorPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorPickerViewController.m; sourceTree = "<group>"; };
+		10D0FE4E1968DF8A007D7239 /* nko_brightness_guide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nko_brightness_guide.png; sourceTree = "<group>"; };
+		10D0FE4F1968DF8A007D7239 /* nko_brightness_guide@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nko_brightness_guide@2x.png"; sourceTree = "<group>"; };
+		10D0FE501968DF8A007D7239 /* nko_colormap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nko_colormap.png; sourceTree = "<group>"; };
+		10E512CE1974D8BC00A0F8CC /* TimeZoneTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeZoneTableViewController.h; sourceTree = "<group>"; };
+		10E512CF1974D8BC00A0F8CC /* TimeZoneTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeZoneTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10D0FDDE1968A0F7007D7239 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10D0FDF41968A0F7007D7239 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10BCFE3B19C57773006D4D01 /* Custom Controls */ = {
+			isa = PBXGroup;
+			children = (
+				101A65FF199FDFAB00D4E8FF /* BorderedButton.h */,
+				101A6600199FDFAB00D4E8FF /* BorderedButton.m */,
+				10BCFE3819C5776E006D4D01 /* WatchView.h */,
+				10BCFE3919C5776E006D4D01 /* WatchView.m */,
+			);
+			name = "Custom Controls";
+			sourceTree = "<group>";
+		};
+		10D0FDD81968A0F7007D7239 = {
+			isa = PBXGroup;
+			children = (
+				10D0FDE31968A0F7007D7239 /* WatchControl */,
+				10D0FDFA1968A0F7007D7239 /* WatchControlTests */,
+				10D0FDE21968A0F7007D7239 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		10D0FDE21968A0F7007D7239 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10D0FDE11968A0F7007D7239 /* WatchControl.app */,
+				10D0FDF71968A0F7007D7239 /* WatchControlTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10D0FDE31968A0F7007D7239 /* WatchControl */ = {
+			isa = PBXGroup;
+			children = (
+				10BCFE3B19C57773006D4D01 /* Custom Controls */,
+				10D0FE5419698302007D7239 /* Images provided by Designer */,
+				10D0FE401968BDA7007D7239 /* Controllers */,
+				10D0FE3F1968BD88007D7239 /* 3rd Party */,
+				10D0FE3E1968BD6C007D7239 /* Custom Cells */,
+				10D0FDE81968A0F7007D7239 /* AppDelegate.h */,
+				10D0FDE91968A0F7007D7239 /* AppDelegate.m */,
+				10D0FDEE1968A0F7007D7239 /* Main.storyboard */,
+				10D0FDF11968A0F7007D7239 /* Images.xcassets */,
+				10D0FDE41968A0F7007D7239 /* Supporting Files */,
+			);
+			path = WatchControl;
+			sourceTree = "<group>";
+		};
+		10D0FDE41968A0F7007D7239 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				10D0FDE51968A0F7007D7239 /* Info.plist */,
+				10D0FDE61968A0F7007D7239 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		10D0FDFA1968A0F7007D7239 /* WatchControlTests */ = {
+			isa = PBXGroup;
+			children = (
+				10D0FDFD1968A0F7007D7239 /* WatchControlTests.m */,
+				10D0FDFB1968A0F7007D7239 /* Supporting Files */,
+			);
+			path = WatchControlTests;
+			sourceTree = "<group>";
+		};
+		10D0FDFB1968A0F7007D7239 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				10D0FDFC1968A0F7007D7239 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		10D0FE3E1968BD6C007D7239 /* Custom Cells */ = {
+			isa = PBXGroup;
+			children = (
+				10D0FE441968C0FD007D7239 /* TimezoneTableViewCell.h */,
+				10D0FE451968C0FD007D7239 /* TimezoneTableViewCell.m */,
+				1086ADBE1995C9AB00C74E48 /* WatchCollectionViewCell.h */,
+				1086ADBF1995C9AB00C74E48 /* WatchCollectionViewCell.m */,
+			);
+			name = "Custom Cells";
+			sourceTree = "<group>";
+		};
+		10D0FE3F1968BD88007D7239 /* 3rd Party */ = {
+			isa = PBXGroup;
+			children = (
+				10D0FE4D1968DF8A007D7239 /* Assets */,
+				10D0FE471968DDAB007D7239 /* NKOColorPickerView.h */,
+				10D0FE481968DDAB007D7239 /* NKOColorPickerView.m */,
+			);
+			name = "3rd Party";
+			sourceTree = "<group>";
+		};
+		10D0FE401968BDA7007D7239 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				10D0FE411968BF7A007D7239 /* SettingsViewController.h */,
+				10D0FE421968BF7A007D7239 /* SettingsViewController.m */,
+				10D0FE4A1968DF05007D7239 /* ColorPickerViewController.h */,
+				10D0FE4B1968DF05007D7239 /* ColorPickerViewController.m */,
+				10E512CE1974D8BC00A0F8CC /* TimeZoneTableViewController.h */,
+				10E512CF1974D8BC00A0F8CC /* TimeZoneTableViewController.m */,
+				1086ADBB1995C84600C74E48 /* WatchCollectionViewController.h */,
+				1086ADBC1995C84700C74E48 /* WatchCollectionViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		10D0FE4D1968DF8A007D7239 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				10D0FE4E1968DF8A007D7239 /* nko_brightness_guide.png */,
+				10D0FE4F1968DF8A007D7239 /* nko_brightness_guide@2x.png */,
+				10D0FE501968DF8A007D7239 /* nko_colormap.png */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		10D0FE5419698302007D7239 /* Images provided by Designer */ = {
+			isa = PBXGroup;
+			children = (
+				102D320519A56003005E17A9 /* test1.jpg */,
+				102D320619A56003005E17A9 /* test2.jpg */,
+				102D320719A56003005E17A9 /* test3.jpg */,
+			);
+			name = "Images provided by Designer";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10D0FDE01968A0F7007D7239 /* WatchControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10D0FE011968A0F7007D7239 /* Build configuration list for PBXNativeTarget "WatchControl" */;
+			buildPhases = (
+				10D0FDDD1968A0F7007D7239 /* Sources */,
+				10D0FDDE1968A0F7007D7239 /* Frameworks */,
+				10D0FDDF1968A0F7007D7239 /* Resources */,
+				10D0FE2E1968A24A007D7239 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WatchControl;
+			productName = WatchControl;
+			productReference = 10D0FDE11968A0F7007D7239 /* WatchControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		10D0FDF61968A0F7007D7239 /* WatchControlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10D0FE041968A0F7007D7239 /* Build configuration list for PBXNativeTarget "WatchControlTests" */;
+			buildPhases = (
+				10D0FDF31968A0F7007D7239 /* Sources */,
+				10D0FDF41968A0F7007D7239 /* Frameworks */,
+				10D0FDF51968A0F7007D7239 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10D0FDF91968A0F7007D7239 /* PBXTargetDependency */,
+			);
+			name = WatchControlTests;
+			productName = WatchControlTests;
+			productReference = 10D0FDF71968A0F7007D7239 /* WatchControlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10D0FDD91968A0F7007D7239 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Vincent Ngo";
+				TargetAttributes = {
+					10D0FDE01968A0F7007D7239 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					10D0FDF61968A0F7007D7239 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 10D0FDE01968A0F7007D7239;
+					};
+				};
+			};
+			buildConfigurationList = 10D0FDDC1968A0F7007D7239 /* Build configuration list for PBXProject "WatchControl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 10D0FDD81968A0F7007D7239;
+			productRefGroup = 10D0FDE21968A0F7007D7239 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10D0FDE01968A0F7007D7239 /* WatchControl */,
+				10D0FDF61968A0F7007D7239 /* WatchControlTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10D0FDDF1968A0F7007D7239 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10D0FE531968DF8A007D7239 /* nko_colormap.png in Resources */,
+				10D0FDF01968A0F7007D7239 /* Main.storyboard in Resources */,
+				102D320919A56003005E17A9 /* test2.jpg in Resources */,
+				102D320A19A56003005E17A9 /* test3.jpg in Resources */,
+				10D0FE521968DF8A007D7239 /* nko_brightness_guide@2x.png in Resources */,
+				10D0FDF21968A0F7007D7239 /* Images.xcassets in Resources */,
+				10D0FE511968DF8A007D7239 /* nko_brightness_guide.png in Resources */,
+				102D320819A56003005E17A9 /* test1.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10D0FDF51968A0F7007D7239 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10D0FDDD1968A0F7007D7239 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10D0FE491968DDAB007D7239 /* NKOColorPickerView.m in Sources */,
+				10D0FE461968C0FD007D7239 /* TimezoneTableViewCell.m in Sources */,
+				10D0FE4C1968DF05007D7239 /* ColorPickerViewController.m in Sources */,
+				10D0FDEA1968A0F7007D7239 /* AppDelegate.m in Sources */,
+				1086ADBD1995C84700C74E48 /* WatchCollectionViewController.m in Sources */,
+				1086ADC01995C9AC00C74E48 /* WatchCollectionViewCell.m in Sources */,
+				10E512D01974D8BC00A0F8CC /* TimeZoneTableViewController.m in Sources */,
+				10D0FE431968BF7A007D7239 /* SettingsViewController.m in Sources */,
+				101A6602199FDFAB00D4E8FF /* BorderedButton.m in Sources */,
+				10BCFE3A19C5776E006D4D01 /* WatchView.m in Sources */,
+				10D0FDE71968A0F7007D7239 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10D0FDF31968A0F7007D7239 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10D0FDFE1968A0F7007D7239 /* WatchControlTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		10D0FDF91968A0F7007D7239 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10D0FDE01968A0F7007D7239 /* WatchControl */;
+			targetProxy = 10D0FDF81968A0F7007D7239 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		10D0FDEE1968A0F7007D7239 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10D0FDEF1968A0F7007D7239 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		10D0FDFF1968A0F7007D7239 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		10D0FE001968A0F7007D7239 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		10D0FE021968A0F7007D7239 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = WatchControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		10D0FE031968A0F7007D7239 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = WatchControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		10D0FE051968A0F7007D7239 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WatchControl.app/WatchControl";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WatchControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		10D0FE061968A0F7007D7239 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WatchControl.app/WatchControl";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WatchControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10D0FDDC1968A0F7007D7239 /* Build configuration list for PBXProject "WatchControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10D0FDFF1968A0F7007D7239 /* Debug */,
+				10D0FE001968A0F7007D7239 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10D0FE011968A0F7007D7239 /* Build configuration list for PBXNativeTarget "WatchControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10D0FE021968A0F7007D7239 /* Debug */,
+				10D0FE031968A0F7007D7239 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10D0FE041968A0F7007D7239 /* Build configuration list for PBXNativeTarget "WatchControlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10D0FE051968A0F7007D7239 /* Debug */,
+				10D0FE061968A0F7007D7239 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 10D0FDD91968A0F7007D7239 /* Project object */;
+}

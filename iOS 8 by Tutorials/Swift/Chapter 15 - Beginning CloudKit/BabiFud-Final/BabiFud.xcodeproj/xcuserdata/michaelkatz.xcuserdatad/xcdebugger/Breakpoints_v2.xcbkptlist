@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BabiFud/Model.swift"
+            timestampString = "432139728.308215"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "181"
+            endingLineNumber = "181"
+            landmarkName = "addNote(_:establishment:completion:)"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BabiFood.Model.addNote (BabiFood.Model)(Swift.String, establishment : Swift.ImplicitlyUnwrappedOptional&lt;BabiFood.Establishment&gt;, completion : (error : Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.NSError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "BabiFood"
+                  urlString = "file:///Users/michaelkatz/Library/Application%20Support/NCrypt/nCryptedCloud/Dropbox%20(Personal)/rw/my_projects/swift/gm/start_mk/BabiFud/BabiFud/Model.swift"
+                  timestampString = "432139728.330624"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "181"
+                  endingLineNumber = "181"
+                  offsetFromSymbolStart = "81">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BabiFood.Model.addNote (BabiFood.Model)(Swift.String, establishment : Swift.ImplicitlyUnwrappedOptional&lt;BabiFood.Establishment&gt;, completion : (error : Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.NSError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "BabiFood"
+                  urlString = "file:///Users/michaelkatz/Library/Application%20Support/NCrypt/nCryptedCloud/Dropbox%20(Personal)/rw/my_projects/swift/gm/start_mk/BabiFud/BabiFud/Model.swift"
+                  timestampString = "432139728.330836"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "181"
+                  endingLineNumber = "181"
+                  offsetFromSymbolStart = "229">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BabiFud/Model.swift"
+            timestampString = "432139729.714491"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "185"
+            endingLineNumber = "185"
+            landmarkName = "addNote(_:establishment:completion:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BabiFud/MapViewController.swift"
+            timestampString = "432157405.318116"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "76"
+            endingLineNumber = "76"
+            landmarkName = "mapView(_:viewForAnnotation:)"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BabiFood.MapViewController.(mapView (BabiFood.MapViewController) -&gt; (Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.MKMapView&gt;, viewForAnnotation : Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.MKAnnotation&gt;) -&gt; Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.MKAnnotationView&gt;).(closure #1)"
+                  moduleName = "BabiFood"
+                  urlString = "file:///Users/michaelkatz/Library/Application%20Support/NCrypt/nCryptedCloud/Dropbox%20(Personal)/rw/my_projects/swift/gm/start_mk/BabiFud/BabiFud/MapViewController.swift"
+                  timestampString = "432157405.321761"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "76"
+                  endingLineNumber = "76"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BabiFood.MapViewController.(mapView (BabiFood.MapViewController) -&gt; (Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.MKMapView&gt;, viewForAnnotation : Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.MKAnnotation&gt;) -&gt; Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.MKAnnotationView&gt;).(closure #1)"
+                  moduleName = "BabiFood"
+                  urlString = "file:///Users/michaelkatz/Library/Application%20Support/NCrypt/nCryptedCloud/Dropbox%20(Personal)/rw/my_projects/swift/gm/start_mk/BabiFud/BabiFud/MapViewController.swift"
+                  timestampString = "432157405.32193"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "76"
+                  endingLineNumber = "76"
+                  offsetFromSymbolStart = "150">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BabiFood.MapViewController.(mapView (BabiFood.MapViewController) -&gt; (Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.MKMapView&gt;, viewForAnnotation : Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.MKAnnotation&gt;) -&gt; Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.MKAnnotationView&gt;).(closure #1)"
+                  moduleName = "BabiFood"
+                  urlString = "file:///Users/michaelkatz/Library/Application%20Support/NCrypt/nCryptedCloud/Dropbox%20(Personal)/rw/my_projects/swift/gm/start_mk/BabiFud/BabiFud/MapViewController.swift"
+                  timestampString = "432157405.322049"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "76"
+                  endingLineNumber = "76"
+                  offsetFromSymbolStart = "1082">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

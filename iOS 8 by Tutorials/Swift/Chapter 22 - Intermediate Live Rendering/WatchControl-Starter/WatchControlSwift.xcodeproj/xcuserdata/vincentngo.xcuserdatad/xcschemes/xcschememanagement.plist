@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>WatchControlSwift.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>WatchKit.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>clockframeworkTest.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>102C8BDB196BA826005FB626</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>102C8BE5196BA826005FB626</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1062C7AC196C9CBA00121FEA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1062C7B6196C9CBA00121FEA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>10B5118A196B60EB00C500CF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>10B5119C196B60EC00C500CF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

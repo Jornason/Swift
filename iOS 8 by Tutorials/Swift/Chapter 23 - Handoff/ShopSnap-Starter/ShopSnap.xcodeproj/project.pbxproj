@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5BCACAE31969DFE50050F1E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCACAE21969DFE50050F1E5 /* AppDelegate.swift */; };
+		5BCACAE51969DFE50050F1E5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BCACAE41969DFE50050F1E5 /* Images.xcassets */; };
+		5BCACAF11969DFE50050F1E5 /* ShopSnapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCACAF01969DFE50050F1E5 /* ShopSnapTests.swift */; };
+		5BCACAFF1969E63D0050F1E5 /* PersistentStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCACAFE1969E63D0050F1E5 /* PersistentStore.swift */; };
+		6D00FC50196AC005004AAF60 /* SplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D00FC4E196AC005004AAF60 /* SplitViewController.swift */; };
+		6D00FC51196AC005004AAF60 /* TraitOverrideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D00FC4F196AC005004AAF60 /* TraitOverrideViewController.swift */; };
+		6D00FC53196AC035004AAF60 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D00FC52196AC035004AAF60 /* ListViewController.swift */; };
+		6D00FC55196AC03D004AAF60 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D00FC54196AC03D004AAF60 /* DetailViewController.swift */; };
+		6DD61018196CC905003293D7 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DD61017196CC905003293D7 /* Storyboard.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5BCACAEB1969DFE50050F1E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BCACAD51969DFE50050F1E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BCACADC1969DFE50050F1E5;
+			remoteInfo = ShopSnap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5BCACADD1969DFE50050F1E5 /* ShopSnap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShopSnap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BCACAE11969DFE50050F1E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BCACAE21969DFE50050F1E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5BCACAE41969DFE50050F1E5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5BCACAEA1969DFE50050F1E5 /* ShopSnapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShopSnapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BCACAEF1969DFE50050F1E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BCACAF01969DFE50050F1E5 /* ShopSnapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopSnapTests.swift; sourceTree = "<group>"; };
+		5BCACAFE1969E63D0050F1E5 /* PersistentStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersistentStore.swift; sourceTree = "<group>"; };
+		6D00FC4E196AC005004AAF60 /* SplitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplitViewController.swift; sourceTree = "<group>"; };
+		6D00FC4F196AC005004AAF60 /* TraitOverrideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TraitOverrideViewController.swift; sourceTree = "<group>"; };
+		6D00FC52196AC035004AAF60 /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		6D00FC54196AC03D004AAF60 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		6DD61017196CC905003293D7 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5BCACADA1969DFE50050F1E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BCACAE71969DFE50050F1E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5BCACAD41969DFE50050F1E5 = {
+			isa = PBXGroup;
+			children = (
+				5BCACADF1969DFE50050F1E5 /* ShopSnap */,
+				5BCACAED1969DFE50050F1E5 /* ShopSnapTests */,
+				5BCACADE1969DFE50050F1E5 /* Products */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+		};
+		5BCACADE1969DFE50050F1E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BCACADD1969DFE50050F1E5 /* ShopSnap.app */,
+				5BCACAEA1969DFE50050F1E5 /* ShopSnapTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5BCACADF1969DFE50050F1E5 /* ShopSnap */ = {
+			isa = PBXGroup;
+			children = (
+				6DD61017196CC905003293D7 /* Storyboard.storyboard */,
+				5BCACAE21969DFE50050F1E5 /* AppDelegate.swift */,
+				6D00FC4F196AC005004AAF60 /* TraitOverrideViewController.swift */,
+				6D00FC4E196AC005004AAF60 /* SplitViewController.swift */,
+				6D00FC52196AC035004AAF60 /* ListViewController.swift */,
+				6D00FC54196AC03D004AAF60 /* DetailViewController.swift */,
+				5BCACAFE1969E63D0050F1E5 /* PersistentStore.swift */,
+				5BCACAE41969DFE50050F1E5 /* Images.xcassets */,
+				5BCACAE01969DFE50050F1E5 /* Supporting Files */,
+			);
+			path = ShopSnap;
+			sourceTree = "<group>";
+		};
+		5BCACAE01969DFE50050F1E5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5BCACAE11969DFE50050F1E5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5BCACAED1969DFE50050F1E5 /* ShopSnapTests */ = {
+			isa = PBXGroup;
+			children = (
+				5BCACAF01969DFE50050F1E5 /* ShopSnapTests.swift */,
+				5BCACAEE1969DFE50050F1E5 /* Supporting Files */,
+			);
+			path = ShopSnapTests;
+			sourceTree = "<group>";
+		};
+		5BCACAEE1969DFE50050F1E5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5BCACAEF1969DFE50050F1E5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5BCACADC1969DFE50050F1E5 /* ShopSnap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BCACAF41969DFE50050F1E5 /* Build configuration list for PBXNativeTarget "ShopSnap" */;
+			buildPhases = (
+				5BCACAD91969DFE50050F1E5 /* Sources */,
+				5BCACADA1969DFE50050F1E5 /* Frameworks */,
+				5BCACADB1969DFE50050F1E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShopSnap;
+			productName = ShopSnap;
+			productReference = 5BCACADD1969DFE50050F1E5 /* ShopSnap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5BCACAE91969DFE50050F1E5 /* ShopSnapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BCACAF71969DFE50050F1E5 /* Build configuration list for PBXNativeTarget "ShopSnapTests" */;
+			buildPhases = (
+				5BCACAE61969DFE50050F1E5 /* Sources */,
+				5BCACAE71969DFE50050F1E5 /* Frameworks */,
+				5BCACAE81969DFE50050F1E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BCACAEC1969DFE50050F1E5 /* PBXTargetDependency */,
+			);
+			name = ShopSnapTests;
+			productName = ShopSnapTests;
+			productReference = 5BCACAEA1969DFE50050F1E5 /* ShopSnapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5BCACAD51969DFE50050F1E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Razeware LLC";
+				TargetAttributes = {
+					5BCACADC1969DFE50050F1E5 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					5BCACAE91969DFE50050F1E5 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 5BCACADC1969DFE50050F1E5;
+					};
+				};
+			};
+			buildConfigurationList = 5BCACAD81969DFE50050F1E5 /* Build configuration list for PBXProject "ShopSnap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5BCACAD41969DFE50050F1E5;
+			productRefGroup = 5BCACADE1969DFE50050F1E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5BCACADC1969DFE50050F1E5 /* ShopSnap */,
+				5BCACAE91969DFE50050F1E5 /* ShopSnapTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5BCACADB1969DFE50050F1E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BCACAE51969DFE50050F1E5 /* Images.xcassets in Resources */,
+				6DD61018196CC905003293D7 /* Storyboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BCACAE81969DFE50050F1E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5BCACAD91969DFE50050F1E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BCACAE31969DFE50050F1E5 /* AppDelegate.swift in Sources */,
+				6D00FC51196AC005004AAF60 /* TraitOverrideViewController.swift in Sources */,
+				6D00FC53196AC035004AAF60 /* ListViewController.swift in Sources */,
+				5BCACAFF1969E63D0050F1E5 /* PersistentStore.swift in Sources */,
+				6D00FC50196AC005004AAF60 /* SplitViewController.swift in Sources */,
+				6D00FC55196AC03D004AAF60 /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BCACAE61969DFE50050F1E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BCACAF11969DFE50050F1E5 /* ShopSnapTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5BCACAEC1969DFE50050F1E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5BCACADC1969DFE50050F1E5 /* ShopSnap */;
+			targetProxy = 5BCACAEB1969DFE50050F1E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5BCACAF21969DFE50050F1E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5BCACAF31969DFE50050F1E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5BCACAF51969DFE50050F1E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = ShopSnap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		5BCACAF61969DFE50050F1E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = ShopSnap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		5BCACAF81969DFE50050F1E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ShopSnap.app/ShopSnap";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ShopSnapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		5BCACAF91969DFE50050F1E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ShopSnap.app/ShopSnap";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ShopSnapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5BCACAD81969DFE50050F1E5 /* Build configuration list for PBXProject "ShopSnap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BCACAF21969DFE50050F1E5 /* Debug */,
+				5BCACAF31969DFE50050F1E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BCACAF41969DFE50050F1E5 /* Build configuration list for PBXNativeTarget "ShopSnap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BCACAF51969DFE50050F1E5 /* Debug */,
+				5BCACAF61969DFE50050F1E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BCACAF71969DFE50050F1E5 /* Build configuration list for PBXNativeTarget "ShopSnapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BCACAF81969DFE50050F1E5 /* Debug */,
+				5BCACAF91969DFE50050F1E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5BCACAD51969DFE50050F1E5 /* Project object */;
+}
